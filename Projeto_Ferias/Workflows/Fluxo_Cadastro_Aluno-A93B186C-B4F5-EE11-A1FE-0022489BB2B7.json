@@ -1,0 +1,225 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr9f8_sharedcommondataserviceforapps_52ff5"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr9f8_sharedoffice365_1de90"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      },
+      "shared_approvals": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr9f8_sharedapprovals_e7619"
+        },
+        "api": {
+          "name": "shared_approvals"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "Quando_uma_linha_é_adicionada,_modificada_ou_eliminada": {
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "contact",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/name": "a93b186c-b4f5-ee11-a1fe-0022489bb2b7"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        }
+      },
+      "actions": {
+        "Condição": {
+          "actions": {
+            "Enviar_um_e-mail_(V2)": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "emailMessage/To": "@triggerBody()?['emailaddress2']",
+                  "emailMessage/Subject": "Resultado da Inscricao na academia Avengers",
+                  "emailMessage/Body": "<p>Parabéns, está inscrito na academia Avengers na cidade de @{triggerBody()?['_cr9f8_cidadeescolhida_label']}</p>",
+                  "emailMessage/Importance": "Normal"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                  "operationId": "SendEmailV2",
+                  "connectionName": "shared_office365"
+                }
+              }
+            }
+          },
+          "runAfter": {},
+          "else": {
+            "actions": {
+              "Iniciar_e_aguardar_por_uma_aprovação_1": {
+                "type": "OpenApiConnectionWebhook",
+                "inputs": {
+                  "parameters": {
+                    "approvalType": "Basic",
+                    "WebhookApprovalCreationInput/title": "Confirmação da inscrição na academia Avengers",
+                    "WebhookApprovalCreationInput/assignedTo": "@triggerBody()?['emailaddress3']",
+                    "WebhookApprovalCreationInput/enableNotifications": true,
+                    "WebhookApprovalCreationInput/enableReassignment": true
+                  },
+                  "host": {
+                    "apiId": "/providers/Microsoft.PowerApps/apis/shared_approvals",
+                    "operationId": "StartAndWaitForAnApproval",
+                    "connectionName": "shared_approvals"
+                  }
+                }
+              },
+              "Condição_1": {
+                "actions": {
+                  "Enviar_um_e-mail_(V2)_1": {
+                    "runAfter": {
+                      "Atualizar_uma_linha": [
+                        "Succeeded"
+                      ]
+                    },
+                    "type": "OpenApiConnection",
+                    "inputs": {
+                      "parameters": {
+                        "emailMessage/To": "@{triggerBody()?['emailaddress2']};@{triggerBody()?['emailaddress3']}",
+                        "emailMessage/Subject": "Resultado da Inscricao na academia Avengers",
+                        "emailMessage/Body": "<p>Parabéns, está inscrito na academia Avengers na cidade de @{triggerBody()?['_cr9f8_cidadeescolhida_label']}</p>",
+                        "emailMessage/Importance": "Normal"
+                      },
+                      "host": {
+                        "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                        "operationId": "SendEmailV2",
+                        "connectionName": "shared_office365"
+                      }
+                    }
+                  },
+                  "Atualizar_uma_linha": {
+                    "type": "OpenApiConnection",
+                    "inputs": {
+                      "parameters": {
+                        "entityName": "contacts",
+                        "recordId": "@triggerBody()?['contactid']",
+                        "item/msdyn_isminorwithparentalconsent": true
+                      },
+                      "host": {
+                        "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                        "operationId": "UpdateRecord",
+                        "connectionName": "shared_commondataserviceforapps"
+                      }
+                    }
+                  }
+                },
+                "runAfter": {
+                  "Iniciar_e_aguardar_por_uma_aprovação_1": [
+                    "Succeeded"
+                  ]
+                },
+                "else": {
+                  "actions": {
+                    "Enviar_um_e-mail_(V2)_2": {
+                      "runAfter": {
+                        "Atualizar_uma_linha_1": [
+                          "Succeeded"
+                        ]
+                      },
+                      "type": "OpenApiConnection",
+                      "inputs": {
+                        "parameters": {
+                          "emailMessage/To": "@{triggerBody()?['emailaddress2']};@{triggerBody()?['emailaddress3']}",
+                          "emailMessage/Subject": "Resultado da Inscricao na academia Avengers",
+                          "emailMessage/Body": "<p>Por decisão do seu responsável, não foi aceite na nossa academia.</p>",
+                          "emailMessage/Importance": "Normal"
+                        },
+                        "host": {
+                          "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                          "operationId": "SendEmailV2",
+                          "connectionName": "shared_office365"
+                        }
+                      }
+                    },
+                    "Atualizar_uma_linha_1": {
+                      "type": "OpenApiConnection",
+                      "inputs": {
+                        "parameters": {
+                          "entityName": "contacts",
+                          "recordId": "@triggerBody()?['contactid']",
+                          "item/msdyn_isminorwithparentalconsent": false
+                        },
+                        "host": {
+                          "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                          "operationId": "UpdateRecord",
+                          "connectionName": "shared_commondataserviceforapps"
+                        }
+                      }
+                    }
+                  }
+                },
+                "expression": {
+                  "and": [
+                    {
+                      "equals": [
+                        "@body('Iniciar_e_aguardar_por_uma_aprovação_1')?['outcome']",
+                        "Approve"
+                      ]
+                    }
+                  ]
+                },
+                "type": "If"
+              }
+            }
+          },
+          "expression": {
+            "and": [
+              {
+                "equals": [
+                  "@triggerBody()?['msdyn_isminor']",
+                  "False"
+                ]
+              },
+              {
+                "equals": [
+                  "",
+                  ""
+                ]
+              }
+            ]
+          },
+          "type": "If"
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

@@ -1,0 +1,297 @@
+<ImportExportXml version="9.2.24033.212" SolutionPackageVersion="9.2" languagecode="2070" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Projeto_Ferias</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Projeto_Ferias" languagecode="2070" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.12</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Cr2dce4</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CDS Default Publisher" languagecode="2070" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cr9f8</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>81990</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="1" schemaName="cr9f8_d_cliente" behavior="0" />
+      <RootComponent type="1" schemaName="cr9f8_meufluxoempresarial" behavior="0" />
+      <RootComponent type="9" schemaName="cr9f8_cidade_escolhida" behavior="0" />
+      <RootComponent type="9" schemaName="cr9f8_modalidade_escolhida" behavior="0" />
+      <RootComponent type="29" id="{081ef832-11fb-ee11-a1ff-0022489bb2b7}" behavior="0" />
+      <RootComponent type="29" id="{2337d7ff-5af3-ee11-a1fe-0022489bb2b7}" behavior="0" />
+      <RootComponent type="29" id="{7e2357be-3af3-ee11-a1fe-0022489bb2b7}" behavior="0" />
+      <RootComponent type="29" id="{a83b186c-b4f5-ee11-a1fe-0022489bb2b7}" behavior="0" />
+      <RootComponent type="29" id="{a93b186c-b4f5-ee11-a1fe-0022489bb2b7}" behavior="0" />
+      <RootComponent type="62" schemaName="cr9f8_CadastroAluno" behavior="0" />
+      <RootComponent type="62" schemaName="cr9f8_Teste" behavior="0" />
+      <RootComponent type="80" schemaName="cr9f8_CadastroAluno" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_externalidentity" displayName="Identidade Externa" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="1" schemaName="contact" displayName="Cadastro Aluno" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_externalidentity" displayName="Identidade Externa" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Convite" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="1" schemaName="contact" displayName="Cadastro Aluno" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webformsession" displayName="Sessão de Formulário de Vários Passos" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="1" schemaName="contact" displayName="Cadastro Aluno" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr9f8_f_vendas" displayName="F_Vendas" solution="Active" />
+        <Dependent type="1" schemaName="cr9f8_d_cliente" displayName="D_Cliente" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="mspp_webrole" displayName="Função Web" solution="PowerPages_Apps (1.0.2401.1)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="adx_contact_externalidentity" displayName="adx_contact_externalidentity" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_accessfailedcount" displayName="Contagem de Acessos Falhados" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_emailaddress1confirmed" displayName="E-mail Confirmado" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_locallogindisabled" displayName="Início de Sessão Local Desativado" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_lockoutenabled" displayName="Bloqueio Ativado" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_lockoutenddate" displayName="Data de Fim do Bloqueio" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_logonenabled" displayName="Início de Sessão Ativado" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_mobilephoneconfirmed" displayName="Número do Telemóvel Confirmado" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_securitystamp" displayName="Carimbo de Segurança" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_twofactorenabled" displayName="Dois Fatores Ativados" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_identity_username" displayName="Nome de Utilizador" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_organizationname" displayName="Organization Name" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced) - Japanese" parentDisplayName="Cadastro Aluno" id="{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_organizationname" displayName="Organization Name" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced)" parentDisplayName="Cadastro Aluno" id="{bddc0100-0dbe-4562-aafe-31d08c8ab506}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_publicprofilecopy" displayName="Cópia de perfil público" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced) - Japanese" parentDisplayName="Cadastro Aluno" id="{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_publicprofilecopy" displayName="Cópia de perfil público" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced)" parentDisplayName="Cadastro Aluno" id="{bddc0100-0dbe-4562-aafe-31d08c8ab506}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_timezone" displayName="Time Zone" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msa_managingpartnerid" displayName="Parceiro de Gestão" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)" />
+        <Dependent type="2" schemaName="parentcustomerid" displayName="Nome da Empresa" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_isminor" displayName="É Menor" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="msdynce_PortalPrivacyExtensions (9.2.10.0)" />
+        <Dependent type="2" schemaName="msdyn_isminor" displayName="É Menor" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_isminorwithparentalconsent" displayName="É Menor com Autorização Parental" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="msdynce_PortalPrivacyExtensions (9.2.10.0)" />
+        <Dependent type="29" displayName="Verificação de menoridade" id="{7e2357be-3af3-ee11-a1fe-0022489bb2b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_isminorwithparentalconsent" displayName="É Menor com Autorização Parental" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="msdynce_PortalPrivacyExtensions (9.2.10.0)" />
+        <Dependent type="60" displayName="Contacto" parentDisplayName="Cadastro Aluno" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mspp_userpreferredlcid" displayName="Idioma Preferencial" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeExtensions (1.0.2310.1)" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced) - Japanese" parentDisplayName="Cadastro Aluno" id="{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="mspp_userpreferredlcid" displayName="Idioma Preferencial" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeExtensions (1.0.2310.1)" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced)" parentDisplayName="Cadastro Aluno" id="{bddc0100-0dbe-4562-aafe-31d08c8ab506}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Todos os Contactos" displayName="Todos os Contactos" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="26" schemaName="Todos os Contactos" displayName="Todos os Contactos" parentSchemaName="contact" parentDisplayName="Cadastro Aluno" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Funções Web Ativas" displayName="Funções Web Ativas" parentSchemaName="mspp_webrole" parentDisplayName="Função Web" solution="PowerPages_Apps (1.0.2401.1)" id="{735de4f0-c287-42eb-b5e6-2f01a75a40fb}" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Identidades Externas Ativas" displayName="Identidades Externas Ativas" parentSchemaName="adx_externalidentity" parentDisplayName="Identidade Externa" solution="PowerPages_RuntimeCore (1.0.2312.2)" id="{93fe9ed1-cabf-4755-9f63-4f3f989084e6}" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Profile Web Form (Enhanced) - Japanese" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" id="{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced) - Japanese" parentDisplayName="Cadastro Aluno" id="{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contacto" parentDisplayName="Cadastro Aluno" solution="msdynce_AppCommon (9.0.4.0066)" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Contacto" parentDisplayName="Cadastro Aluno" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Informações" parentDisplayName="Cadastro Aluno" solution="msdynce_AppCommon (9.0.4.0066)" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cadastro Aluno" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Profile Web Form (Enhanced)" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" id="{bddc0100-0dbe-4562-aafe-31d08c8ab506}" />
+        <Dependent type="60" displayName="Profile Web Form (Enhanced)" parentDisplayName="Cadastro Aluno" id="{bddc0100-0dbe-4562-aafe-31d08c8ab506}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Invite Web Form" parentDisplayName="Cadastro Aluno" solution="PowerPages_RuntimeCore (1.0.2312.2)" id="{d6190b35-9474-4098-9698-33f6627eb3bf}" />
+        <Dependent type="60" displayName="Invite Web Form" parentDisplayName="Cadastro Aluno" id="{d6190b35-9474-4098-9698-33f6627eb3bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Profile Web Form (Enhanced) - Japanese" parentDisplayName="Cadastro Aluno" id="{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Contacto" parentDisplayName="Cadastro Aluno" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Informações" parentDisplayName="Cadastro Aluno" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.24033.10003)</package>
+        </Required>
+        <Dependent type="60" displayName="Invite Web Form" parentDisplayName="Cadastro Aluno" id="{d6190b35-9474-4098-9698-33f6627eb3bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="cr9f8_CadastroAluno" displayName="Cadastro Aluno" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="mspp_entities/subgrid_filtering.js" displayName="mspp_entities/subgrid_filtering.js" solution="PowerPages_AppResources (1.0.2312.1)" />
+        <Dependent type="60" displayName="Portal Contact (Enhanced)" parentDisplayName="Cadastro Aluno" id="{c1c97961-2d42-4103-abf8-2fe2bdf38224}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2403.3025)" />
+        <Dependent type="60" displayName="Contacto" parentDisplayName="Cadastro Aluno" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.8)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=cr9f8_CadastroAluno,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="cr9f8_CadastroAluno" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

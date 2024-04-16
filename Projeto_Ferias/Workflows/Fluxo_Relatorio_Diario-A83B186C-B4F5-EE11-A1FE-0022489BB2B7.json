@@ -1,0 +1,119 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr9f8_sharedcommondataserviceforapps_52ff5"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "cr9f8_sharedoffice365_1de90"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "undefined",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "Recurrence": {
+          "recurrence": {
+            "frequency": "Day",
+            "interval": "1",
+            "startTime": "2024-04-08T05:00:00Z"
+          },
+          "type": "Recurrence"
+        }
+      },
+      "actions": {
+        "Listar_linhas": {
+          "runAfter": {},
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "contacts",
+              "$filter": "createdon ge @{addDays(utcNow(),-1)}"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "ListRecords",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "Criar_tabela_HTML": {
+          "runAfter": {
+            "Listar_linhas": [
+              "Succeeded"
+            ]
+          },
+          "type": "Table",
+          "inputs": {
+            "from": "@outputs('Listar_linhas')?['body/value']",
+            "format": "HTML",
+            "columns": [
+              {
+                "header": "Nome",
+                "value": "@{item()?['address1_name']}"
+              },
+              {
+                "header": "Cidade",
+                "value": "@{item()?['cr9f8_cidadeescolhida@OData.Community.Display.V1.FormattedValue']}"
+              }
+            ]
+          }
+        },
+        "Enviar_um_e-mail_(V2)": {
+          "runAfter": {
+            "Style": [
+              "Succeeded"
+            ]
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "emailMessage/To": "iefp220@alunos.ipca.pt",
+              "emailMessage/Subject": "Relatório diário novos alunos",
+              "emailMessage/Body": "<p>As inscrições mais recentes são:</p><p>@{body('Criar_tabela_HTML')}@{outputs('Style')}</p>",
+              "emailMessage/Importance": "Normal"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+              "operationId": "SendEmailV2",
+              "connectionName": "shared_office365"
+            }
+          }
+        },
+        "Style": {
+          "runAfter": {
+            "Criar_tabela_HTML": [
+              "Succeeded"
+            ]
+          },
+          "type": "Compose",
+          "inputs": "<style>\ntable {\nborder: 1px solid #1C6EA4;\nbackground-color: #EEEEEE;\nwidth: 100%;\ntext-align: left;\nborder-collapse: collapse;\n}\ntable td, table th {\nborder: 1px solid #AAAAAA;\npadding: 3px 2px;\n}\ntable tbody td {\nfont-size: 13px;\n}\ntable thead {\nbackground: #DC0000;\nborder-bottom: 2px solid #444444;\n}\ntable thead th {\nfont-size: 15px;\nfont-weight: bold;\ncolor: #FFFFFF;\nborder-left: 2px solid #D0E4F5;\n}\ntable thead th:first-child {\nborder-left: none;\n}\n</style>"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}
