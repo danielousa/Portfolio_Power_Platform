@@ -1,6 +1,6 @@
 # Portfolio_Power_BI
 
- ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/a0445bfd-3ba7-47b2-9fb2-82b93fcad99a)
+ ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/f416859a-6de2-49ef-8878-ff5755595e7b)
 
  ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/f28f2256-ab33-4d35-9f53-b590ffdb00e2)
 
