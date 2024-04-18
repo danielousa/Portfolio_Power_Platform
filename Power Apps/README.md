@@ -7,6 +7,19 @@
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/ee118e63-0592-4616-8690-8b01bd48c476)
 
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/3cfa8342-5c4d-4f6b-9724-ef213d77f361)
+
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/d8c9f83d-878b-4ba3-84a8-b85362c5a5c8)
+
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/797807e5-2668-4369-8410-f62ba07a50be)
+
+
+Canvas Mobile developed
+
+
+
+
+
 
 
 
