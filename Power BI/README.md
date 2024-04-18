@@ -16,8 +16,6 @@
 
  ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/78cf794f-3905-4d28-82e9-439ac1096a72)
 
- ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/0ed17026-71b5-4e6d-8897-9020fcfd4333)
-
  ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/07e94dac-1948-4d91-8cba-ac430ecd70a4)
 
 
