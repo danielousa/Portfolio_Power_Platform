@@ -38,9 +38,10 @@ Solution Projeto_Ferias
 
 Business Rules
 
-![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4b06f7a6-8d52-4412-8cf9-25014eda632b)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/369f799f-8319-4b97-ae0e-0aa703297256)
 
-![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6a06296f-7b6e-4fb4-86eb-8101191530a2)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/436e2484-b4a4-43e2-9654-604dea420dca)
+
 
 Main Form
 
