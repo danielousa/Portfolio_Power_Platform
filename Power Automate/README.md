@@ -30,6 +30,16 @@ If the outcome of this approval is "Approve", it updates the same record as befo
 
 Analytic_Avengers_Flow_Sharepoint_New_File
 
+The flow consists of the following steps:
+
+GetOnUpdatedFileItems: This action retrieves the details of the updated file items from a SharePoint dataset.
+StartAndWaitForAnApproval: This action starts an approval process and waits for it to be completed. It creates an approval with the title, assigned user, details, item link, and enables notifications and reassignment.
+If statement: Checks if the outcome of the approval is "Approve".
+SendEmailV2: Sends an email notification to the assigned user if the approval outcome is "Approve". It includes the name of the file in the email body.
+Else statement: Executes if the approval outcome is not "Approve".
+DeleteFile: Deletes the file from the SharePoint dataset.
+SendEmailV2: Sends an email notification to the assigned user if the approval outcome is not "Approve". It notifies the user that the file request has been rejected.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/83894187-2b78-475d-bb45-fe7a6896bac6)
 
 Analytic_Avengers_Flow_Sharepoint_New_Item
