@@ -42,6 +42,11 @@ Business Rules
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6a06296f-7b6e-4fb4-86eb-8101191530a2)
 
+Main Form
+
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/a64381ec-9cc3-4441-8b12-48fc94b6ae9f)
+
+
 
 
 
