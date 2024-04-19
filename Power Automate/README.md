@@ -44,6 +44,12 @@ SendEmailV2: Sends an email notification to the assigned user if the approval ou
 
 Analytic_Avengers_Flow_Sharepoint_New_Item
 
+The flow consists of two steps:
+
+Trigger: The flow is triggered when a new item is added to the specified SharePoint list in the dataset "https://alunosipca.sharepoint.com/sites/AvengersTeam" and table "f3f20f48-df35-4ba5-b48e-855c5f63bd45".
+
+Action: An email is sent using the "SendEmailV2" action from the Office 365 connector. The email is sent to "iefp220@alunos.ipca.pt" with the subject "Novo Item adicionado à tabela Compras" and the body containing a message stating that a new item has been added to the table. The email's importance is set to "Normal".
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/3f542ec1-6331-4ba9-853c-49ab05786ac9)
 
 Analytic_Avengers_atualize_projeto1_power_automate
