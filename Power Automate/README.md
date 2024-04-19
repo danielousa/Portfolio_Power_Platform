@@ -2,6 +2,8 @@
 
  Analytic_Avengers_Flow_Authorizing_of_Leaving
 
+ O fluxo começa com um gatilho de botão. Em seguida, é criada uma aprovação básica com título, destinatário, detalhes e notificações habilitadas. Depois, um cartão é postado em um canal de equipe. O fluxo aguarda a aprovação e, em seguida, envia um e-mail com uma resposta submetida e alta importância.
+
  ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6bfb080f-5394-48d9-b9f3-56b3978a7755)
 
 Analytic_Avengers_Flow_Purchase_Approval
