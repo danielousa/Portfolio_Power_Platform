@@ -8,7 +8,15 @@
 
 Analytic_Avengers_Flow_Purchase_Approval
 
-O fluxo começa com um gatilho de assinatura de webhook para a entidade "cr9f8_requisicaodecompra". Em seguida, é verificado se o valor do campo "cr9f8_preco" é maior que 500. Se for, é iniciada uma aprovação básica aguardando todas as aprovações, com detalhes sobre o item, justificativa e preço. Se a aprovação for aprovada, é atualizada uma linha no registro da entidade "cr9f8_requisicaodecompras" com o valor 1 no campo "cr9f8_escolha". Caso contrário, o valor 0 é atualizado no mesmo campo. Se o valor do campo "cr9f8_preco" for menor ou igual a 500, é iniciada uma aprovação básica, com detalhes apenas sobre a justificativa. Novamente, se a aprovação for aprovada, é atualizada uma linha no registro da entidade "cr9f8_requisicaodecompras" com o valor 1 no campo "cr9f8_escolha". Caso contrário, o valor 0 é atualizado no mesmo campo.
+The flow starts with a trigger that subscribes to a webhook. It listens for a message with specific entity name and scope.
+
+Next, it checks if the value of "cr9f8_preco" in the trigger output is greater than 500. If it is, it starts an approval process using the "StartAndWaitForAnApproval" action. The approval is assigned to two email addresses and includes details from the trigger output.
+
+If the outcome of the approval is "Approve", it updates a record in the "cr9f8_requisicaodecompras" entity, setting the value of "cr9f8_escolha" to 1. Otherwise, it sets the value to 0.
+
+If the value of "cr9f8_preco" is not greater than 500, it starts a basic approval process without waiting for it to complete. The approval is assigned to two email addresses and includes the "cr9f8_justificativa" from the trigger output.
+
+If the outcome of this approval is "Approve", it updates the same record as before, setting the value of "cr9f8_escolha" to 1. Otherwise, it sets the value to 0.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/62932749-5919-473f-b628-df8b43d27424)
 
