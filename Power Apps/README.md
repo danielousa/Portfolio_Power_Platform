@@ -32,15 +32,15 @@ Solution Analytic Avengers
 
 Business Rules
 
-![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4b06f7a6-8d52-4412-8cf9-25014eda632b)
-
-![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6a06296f-7b6e-4fb4-86eb-8101191530a2)
-
 
 
 Solution Projeto_Ferias
 
-![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/12681772-f305-4f60-9264-f63d2e896fbf)
+Business Rules
+
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4b06f7a6-8d52-4412-8cf9-25014eda632b)
+
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6a06296f-7b6e-4fb4-86eb-8101191530a2)
 
 
 
