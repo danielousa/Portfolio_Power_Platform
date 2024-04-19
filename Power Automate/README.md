@@ -8,6 +8,8 @@
 
 Analytic_Avengers_Flow_Purchase_Approval
 
+O fluxo começa com um gatilho de assinatura de webhook para a entidade "cr9f8_requisicaodecompra". Em seguida, é verificado se o valor do campo "cr9f8_preco" é maior que 500. Se for, é iniciada uma aprovação básica aguardando todas as aprovações, com detalhes sobre o item, justificativa e preço. Se a aprovação for aprovada, é atualizada uma linha no registro da entidade "cr9f8_requisicaodecompras" com o valor 1 no campo "cr9f8_escolha". Caso contrário, o valor 0 é atualizado no mesmo campo. Se o valor do campo "cr9f8_preco" for menor ou igual a 500, é iniciada uma aprovação básica, com detalhes apenas sobre a justificativa. Novamente, se a aprovação for aprovada, é atualizada uma linha no registro da entidade "cr9f8_requisicaodecompras" com o valor 1 no campo "cr9f8_escolha". Caso contrário, o valor 0 é atualizado no mesmo campo.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/62932749-5919-473f-b628-df8b43d27424)
 
 Analytic_Avengers_Flow_Sharepoint_New_File
