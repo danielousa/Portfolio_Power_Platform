@@ -2,11 +2,19 @@
 
  Analytic_Avengers_Flow_Authorizing_of_Leaving
 
- O fluxo começa com um gatilho de botão. Em seguida, é criada uma aprovação básica com título, destinatário, detalhes e notificações habilitadas. Depois, um cartão é postado em um canal de equipe. O fluxo aguarda a aprovação e, em seguida, envia um e-mail com uma resposta submetida e alta importância.
+
+The flow consists of the following steps:
+
+Trigger: The flow is triggered by a button press.
+Create an Approval: An approval is created with the title "Sair mais cedo" (Leave early), assigned to "iefp220@alunos.ipca.pt", and with the details "Posso sair mais cedo?" (Can I leave early?). Notifications and reassignment are enabled.
+Post Card to Conversation: A card containing the approval details is posted to a specific channel in Microsoft Teams.
+Wait for an Approval: The flow waits for the approval to be completed.
+Send Email V2: An email is sent to "iefp220@alunos.ipca.pt" with the subject "Pedido para sair mais cedo" (Request to leave early) and the body "<p>Resposta submetida</p>" (Response submitted). The email has high importance.
 
  ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6bfb080f-5394-48d9-b9f3-56b3978a7755)
 
 Analytic_Avengers_Flow_Purchase_Approval
+
 
 The flow starts with a trigger that subscribes to a webhook. It listens for a message with specific entity name and scope.
 
