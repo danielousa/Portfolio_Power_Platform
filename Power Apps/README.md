@@ -28,9 +28,15 @@ Canvas Mobile developed
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/8ca25d32-8054-4329-a7fa-452fa02fbdde) ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/8f73f183-cfc8-40a5-8b2c-20e105eb4ae9)
 
+
+
+
 Solution Analytic Avengers
 
-Business Rules
+Main Form
+
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4067e00a-81e2-46aa-bf32-aa50b96049c5)
+
 
 
 
