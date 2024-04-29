@@ -1,0 +1,68 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Lição 2 – Um tópico simples com uma condição e uma variável
+    triggerQueries:
+      - Loja perto de mim
+      - Verificar localização da loja
+      - Encontrar uma loja
+      - Localizar uma loja
+      - Encontrar a loja mais próxima
+      - Encontrar a loja mais perto
+      - Encontre para mim o local mais próximo
+      - Encontrar para mim o local mais próximo
+
+  actions:
+    - kind: SendActivity
+      id: qvduia
+      activity: Será um prazer ajudar você a encontrar a loja mais próxima.
+
+    - kind: Question
+      id: LbWwpD
+      alwaysPrompt: true
+      variable: init:Topic.StoreLocation
+      prompt: Em que local você está interessado?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          smartMatchingEnabled: true
+          items:
+            - id: Redmond
+              displayName: São Paulo
+
+            - id: Seattle
+              displayName: Campinas
+
+            - id: Kirkland
+              displayName: Tamboré
+
+    - kind: ConditionGroup
+      id: HE6JRU
+      conditions:
+        - id: 6G9Hhn
+          condition: =Topic.StoreLocation = 'cr4ab_avengersCopilot.topic.Lesson2.main.LbWwpD'.'Redmond'
+          actions:
+            - kind: SendActivity
+              id: khIIPE
+              activity: Confira a Loja da Empresa na nossa Central do Visitante. O endereço é Rua Principal 4567, São Paulo, 26132.
+
+        - id: dqf7pu
+          condition: =Topic.StoreLocation = 'cr4ab_avengersCopilot.topic.Lesson2.main.LbWwpD'.'Seattle'
+          actions:
+            - kind: SendActivity
+              id: X7eulp
+              activity: "Nossa loja de {Topic.StoreLocation} está localizada no Distrito U da Vila Universitária. O endereço é: Vila Universitária 1234, Campinas, 34567."
+
+        - id: 1QMrFE
+          condition: =Topic.StoreLocation = 'cr4ab_avengersCopilot.topic.Lesson2.main.LbWwpD'.'Kirkland'
+          actions:
+            - kind: SendActivity
+              id: jtQo0O
+              activity: "Nossa {Topic.StoreLocation} está localizada no centro de Tamboré. O endereço é: Rua Central 1234, Tamboré, 98321."
+
+    - kind: BeginDialog
+      id: mJXqqY
+      dialog: cr4ab_avengersCopilot.topic.EndofConversation

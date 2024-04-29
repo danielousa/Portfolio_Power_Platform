@@ -1,0 +1,524 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - Qual é o horário de funcionamento do ginásio?
+      - horario funcionamento
+      - horario
+      - horário
+
+  actions:
+    - kind: Question
+      id: question_Pdo8et
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: init:Topic.Var1
+      prompt: Qual a cidade pretendida?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          items:
+            - id: Matosinhos
+              displayName: Matosinhos
+
+            - id: Gondomar
+              displayName: Gondomar
+
+            - id: Setúbal
+              displayName: Setúbal
+
+            - id: Espinho
+              displayName: Espinho
+
+    - kind: ConditionGroup
+      id: conditionGroup_Nppknj
+      conditions:
+        - id: conditionItem_yALdKc
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_Pdo8et'.Matosinhos
+          actions:
+            - kind: Question
+              id: question_QGEZz9
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var10
+              prompt: Indique a sua modalidade, por favor 
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yoga
+                      displayName: Yoga
+
+                    - id: Cycling
+                      displayName: Cycling
+
+                    - id: Musculação
+                      displayName: Musculação
+
+            - kind: ConditionGroup
+              id: conditionGroup_Aj3SJe
+              conditions:
+                - id: conditionItem_MS88bO
+                  condition: =Topic.Var10 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_QGEZz9'.Yoga
+
+                - id: conditionItem_KvuKiy
+                  condition: =Topic.Var10 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_QGEZz9'.Cycling
+
+                - id: conditionItem_yyUgQX
+                  condition: =Topic.Var10 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_QGEZz9'.Musculação
+
+            - kind: SetVariable
+              id: setVariable_8iuHE0
+              variable: Topic.Var11
+              value: =Text(Topic.Var10)
+
+            - kind: SetVariable
+              id: setVariable_1fhzDs
+              variable: Topic.Var12
+              value: =Text(Topic.Var1)
+
+            - kind: InvokeFlowAction
+              id: invokeFlowAction_1Up24O
+              input:
+                binding:
+                  text: =Topic.Var11
+                  text_1: =Topic.Var12
+
+              output:
+                binding:
+                  output: Topic.Output
+
+              flowId: a5a087e7-1b9c-532a-bdc0-bb222ae7b9be
+
+            - kind: SendActivity
+              id: sendActivity_GKtyS2
+              activity: |-
+                O horário de funcionamento é:
+                {Topic.Output}
+
+            - kind: Question
+              id: question_xb71hc
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var2
+              prompt: Pretende receber no seu correio eletrónico o  cronograma para o presente ano civil?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Sim
+                      displayName: Sim
+
+                    - id: Não
+                      displayName: Não
+
+            - kind: ConditionGroup
+              id: conditionGroup_iQwHIb
+              conditions:
+                - id: conditionItem_gdTp7g
+                  condition: =Topic.Var2 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_xb71hc'.Sim
+                  actions:
+                    - kind: Question
+                      id: question_uNxL76
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var3
+                      prompt: Introduza o seu email, por favor
+                      entity: EmailPrebuiltEntity
+
+                    - kind: InvokeFlowAction
+                      id: invokeFlowAction_gw8Sjr
+                      input:
+                        binding:
+                          text: =Topic.Var3
+
+                      output:
+                        binding:
+                          output: Topic.Output
+
+                      flowId: faa329e4-5ffe-ee11-a1fe-000d3a47f3c7
+
+                    - kind: SendActivity
+                      id: sendActivity_b5Fxqo
+                      activity: Email enviado com sucesso!
+
+                - id: conditionItem_WSXgq4
+                  condition: =Topic.Var2 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_xb71hc'.Não
+                  actions:
+                    - kind: SendActivity
+                      id: sendActivity_9QwvUu
+                      activity: Obrigado pela sua preferência! Espero vê-lo em breve num dos nosso ginásios!
+
+        - id: conditionItem_wP2H1e
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_Pdo8et'.Gondomar
+          actions:
+            - kind: Question
+              id: question_VqL2Lj
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var13
+              prompt: Indique a sua modalidade, por favor
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yoga
+                      displayName: Yoga
+
+                    - id: Cycling
+                      displayName: Cycling
+
+                    - id: Musculação
+                      displayName: Musculação
+
+            - kind: ConditionGroup
+              id: conditionGroup_DimCSc
+              conditions:
+                - id: conditionItem_N3sec8
+                  condition: =Topic.Var13 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_VqL2Lj'.Yoga
+
+                - id: conditionItem_9kXpTL
+                  condition: =Topic.Var13 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_VqL2Lj'.Cycling
+
+                - id: conditionItem_uGsz63
+                  condition: =Topic.Var13 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_VqL2Lj'.Musculação
+
+            - kind: SetVariable
+              id: setVariable_jYokTT
+              variable: Topic.Var11
+              value: =Text(Topic.Var13)
+
+            - kind: SetVariable
+              id: setVariable_1vvG9G
+              variable: Topic.Var12
+              value: =Text(Topic.Var1)
+
+            - kind: InvokeFlowAction
+              id: invokeFlowAction_VMyRW9
+              input:
+                binding:
+                  text: =Topic.Var11
+                  text_1: =Topic.Var12
+
+              output:
+                binding:
+                  output: Topic.Output
+
+              flowId: a5a087e7-1b9c-532a-bdc0-bb222ae7b9be
+
+            - kind: SendActivity
+              id: sendActivity_SCIvxS
+              activity: |-
+                O horário de funcionamento é:
+                {Topic.Output}
+
+            - kind: Question
+              id: question_eTLAQT
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var4
+              prompt: Pretende receber no seu correio eletrónico o  cronograma para o presente ano civil?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Sim
+                      displayName: Sim
+
+                    - id: Não
+                      displayName: Não
+
+            - kind: ConditionGroup
+              id: conditionGroup_hlqnpz
+              conditions:
+                - id: conditionItem_DrZSmA
+                  condition: =Topic.Var4 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_eTLAQT'.Sim
+                  actions:
+                    - kind: Question
+                      id: question_CE7Gcx
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var5
+                      prompt: Introduza o seu email, por favor
+                      entity: EmailPrebuiltEntity
+
+                    - kind: InvokeFlowAction
+                      id: invokeFlowAction_wVMkBH
+                      input:
+                        binding:
+                          text: =Topic.Var5
+
+                      output:
+                        binding:
+                          output: Topic.Output
+
+                      flowId: faa329e4-5ffe-ee11-a1fe-000d3a47f3c7
+
+                    - kind: SendActivity
+                      id: sendActivity_mh7TWF
+                      activity: Email enviado com sucesso!
+
+                - id: conditionItem_ew9h6D
+                  condition: =Topic.Var4 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_eTLAQT'.Não
+                  actions:
+                    - kind: SendActivity
+                      id: sendActivity_f1gwkk
+                      activity: Obrigado pela sua preferência! Espero vê-lo em breve num dos nosso ginásios!
+
+        - id: conditionItem_wkN7yg
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_Pdo8et'.Setúbal
+          actions:
+            - kind: Question
+              id: question_aKmrPM
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var14
+              prompt: Indique a sua modalidade, por favor
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yoga
+                      displayName: Yoga
+
+                    - id: Cycling
+                      displayName: Cycling
+
+                    - id: Musculação
+                      displayName: Musculação
+
+            - kind: ConditionGroup
+              id: conditionGroup_nA0RPz
+              conditions:
+                - id: conditionItem_i2xF2b
+                  condition: =Topic.Var14 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_aKmrPM'.Yoga
+
+                - id: conditionItem_s47ifl
+                  condition: =Topic.Var14 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_aKmrPM'.Cycling
+
+                - id: conditionItem_jELc5G
+                  condition: =Topic.Var14 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_aKmrPM'.Musculação
+
+            - kind: SetVariable
+              id: setVariable_xYt9JM
+              variable: Topic.Var11
+              value: =Text(Topic.Var14)
+
+            - kind: SetVariable
+              id: setVariable_22PTzm
+              variable: Topic.Var12
+              value: =Text(Topic.Var1)
+
+            - kind: InvokeFlowAction
+              id: invokeFlowAction_QKy8cV
+              input:
+                binding:
+                  text: =Topic.Var11
+                  text_1: =Topic.Var12
+
+              output:
+                binding:
+                  output: Topic.Output
+
+              flowId: a5a087e7-1b9c-532a-bdc0-bb222ae7b9be
+
+            - kind: SendActivity
+              id: sendActivity_RIMr20
+              activity: |-
+                O horário de funcionamento é:
+                {Topic.Output}
+
+            - kind: Question
+              id: question_PUAerC
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var6
+              prompt: Pretende receber no seu correio eletrónico o  cronograma para o presente ano civil?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Sim
+                      displayName: Sim
+
+                    - id: Não
+                      displayName: Não
+
+            - kind: ConditionGroup
+              id: conditionGroup_NOKkl4
+              conditions:
+                - id: conditionItem_CMz5uf
+                  condition: =Topic.Var6 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_PUAerC'.Sim
+                  actions:
+                    - kind: Question
+                      id: question_xkP2sQ
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var7
+                      prompt: Introduza o seu email, por favor
+                      entity: EmailPrebuiltEntity
+
+                    - kind: InvokeFlowAction
+                      id: invokeFlowAction_CTZ77N
+                      input:
+                        binding:
+                          text: =Topic.Var7
+
+                      output:
+                        binding:
+                          output: Topic.Output
+
+                      flowId: faa329e4-5ffe-ee11-a1fe-000d3a47f3c7
+
+                    - kind: SendActivity
+                      id: sendActivity_zyDsND
+                      activity: Email enviado com sucesso!
+
+                - id: conditionItem_n5a84l
+                  condition: =Topic.Var6 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_PUAerC'.Não
+                  actions:
+                    - kind: SendActivity
+                      id: sendActivity_lVF6Q2
+                      activity: Obrigado pela sua preferência! Espero vê-lo em breve num dos nosso ginásios!
+
+        - id: conditionItem_nTKHvM
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_Pdo8et'.Espinho
+          actions:
+            - kind: Question
+              id: question_DUs68B
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var15
+              prompt: Indique a sua modalidade, por favor
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yoga
+                      displayName: Yoga
+
+                    - id: Cycling
+                      displayName: Cycling
+
+                    - id: Musculação
+                      displayName: Musculação
+
+            - kind: ConditionGroup
+              id: conditionGroup_vuibbI
+              conditions:
+                - id: conditionItem_R4hntx
+                  condition: =Topic.Var15 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_DUs68B'.Yoga
+
+                - id: conditionItem_lVQsuX
+                  condition: =Topic.Var15 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_DUs68B'.Cycling
+
+                - id: conditionItem_0EgSRU
+                  condition: =Topic.Var15 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_DUs68B'.Musculação
+
+            - kind: SetVariable
+              id: setVariable_SxxB4n
+              variable: Topic.Var11
+              value: =Text(Topic.Var15)
+
+            - kind: SetVariable
+              id: setVariable_4mvnGh
+              variable: Topic.Var12
+              value: =Text(Topic.Var1)
+
+            - kind: InvokeFlowAction
+              id: invokeFlowAction_DzAPgG
+              input:
+                binding:
+                  text: =Topic.Var11
+                  text_1: =Topic.Var12
+
+              output:
+                binding:
+                  output: Topic.Output
+
+              flowId: a5a087e7-1b9c-532a-bdc0-bb222ae7b9be
+
+            - kind: SendActivity
+              id: sendActivity_U3uIKm
+              activity: |-
+                O horário de funcionamento é:
+                {Topic.Output}
+
+            - kind: Question
+              id: question_OorCX5
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var8
+              prompt: Pretende receber no seu correio eletrónico o  cronograma para o presente ano civil?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Sim
+                      displayName: Sim
+
+                    - id: Não
+                      displayName: Não
+
+            - kind: ConditionGroup
+              id: conditionGroup_9v1ZaH
+              conditions:
+                - id: conditionItem_EfodPu
+                  condition: =Topic.Var8 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_OorCX5'.Sim
+                  actions:
+                    - kind: Question
+                      id: question_aQwiQH
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var9
+                      prompt: Introduza o seu email, por favor
+                      entity: EmailPrebuiltEntity
+
+                    - kind: InvokeFlowAction
+                      id: invokeFlowAction_IVjz4j
+                      input:
+                        binding:
+                          text: =Topic.Var9
+
+                      output:
+                        binding:
+                          output: Topic.Output
+
+                      flowId: faa329e4-5ffe-ee11-a1fe-000d3a47f3c7
+
+                    - kind: SendActivity
+                      id: sendActivity_UzA09V
+                      activity: Email enviado com sucesso!
+
+                - id: conditionItem_SeyExg
+                  condition: =Topic.Var8 = 'cr4ab_avengersCopilot.topic.Untitled.main.question_OorCX5'.Não
+                  actions:
+                    - kind: SendActivity
+                      id: sendActivity_KZiVHT
+                      activity: Obrigado pela sua preferência! Espero vê-lo em breve num dos nosso ginásios!
+
+inputs:

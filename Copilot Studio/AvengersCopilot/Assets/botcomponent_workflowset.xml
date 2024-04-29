@@ -1,0 +1,14 @@
+<botcomponent_workflowset>
+  <botcomponent_workflow botcomponentid.schemaname="cr4ab_avengersCopilot.topic.Untitled" workflowid.workflowid="a5a087e7-1b9c-532a-bdc0-bb222ae7b9be">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow botcomponentid.schemaname="cr4ab_avengersCopilot.topic.Untitled" workflowid.workflowid="faa329e4-5ffe-ee11-a1fe-000d3a47f3c7">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow botcomponentid.schemaname="cr4ab_avengersCopilot.topic.Untitled_8XB" workflowid.workflowid="2ceb969f-b0bf-3bcb-24e7-c667585ba706">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+  <botcomponent_workflow botcomponentid.schemaname="cr4ab_avengersCopilot.topic.Untitled_8XB" workflowid.workflowid="886ab4e5-b603-ef11-9f89-000d3a47f3c7">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+</botcomponent_workflowset>

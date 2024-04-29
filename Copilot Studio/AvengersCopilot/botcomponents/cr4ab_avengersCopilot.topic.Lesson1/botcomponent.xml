@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr4ab_avengersCopilot.topic.Lesson1">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Lição 1 – Um tópico simples</name>
+  <parentbotid>
+    <schemaname>cr4ab_avengersCopilot</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

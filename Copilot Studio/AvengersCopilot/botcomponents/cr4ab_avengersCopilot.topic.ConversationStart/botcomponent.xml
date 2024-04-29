@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr4ab_avengersCopilot.topic.ConversationStart">
+  <componenttype>9</componenttype>
+  <description>Esse tópico do sistema é disparado quando o bot recebe uma Atividade que indica o início de uma nova conversa. Se não quiser que o bot inicie a conversa, desabilite esse tópico.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Início da conversa</name>
+  <parentbotid>
+    <schemaname>cr4ab_avengersCopilot</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

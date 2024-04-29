@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr4ab_avengersCopilot.topic.Greeting">
+  <componenttype>9</componenttype>
+  <description>Esse tópico é disparado quando o usuário cumprimenta o bot.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Saudação</name>
+  <parentbotid>
+    <schemaname>cr4ab_avengersCopilot</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

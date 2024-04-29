@@ -1,0 +1,219 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - Quero comprar um produto
+      - produtos
+      - Produtos
+      - produto ginasio
+
+  actions:
+    - kind: Question
+      id: question_MsMtQ9
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: init:Topic.Var1
+      prompt: Queres conhecer os nosso produtos?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          items:
+            - id: Sim
+              displayName: Sim
+
+            - id: Não
+              displayName: Não
+
+    - kind: ConditionGroup
+      id: conditionGroup_27ITy0
+      conditions:
+        - id: conditionItem_8bTEle
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Untitled_8XB.main.question_MsMtQ9'.Sim
+          actions:
+            - kind: Question
+              id: question_zlpw8k
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var2
+              prompt: Escolhe a tua cidade, por favor
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Matosinhos
+                      displayName: Matosinhos
+
+                    - id: Setúbal
+                      displayName: Setúbal
+
+                    - id: Gondomar
+                      displayName: Gondomar
+
+                    - id: Espinho
+                      displayName: Espinho
+
+            - kind: SetVariable
+              id: setVariable_Zo642c
+              variable: Topic.Var3
+              value: =Text(Topic.Var2)
+
+            - kind: InvokeFlowAction
+              id: invokeFlowAction_0OXxf0
+              input:
+                binding:
+                  text: =Topic.Var3
+
+              output:
+                binding:
+                  output: Topic.Output
+
+              flowId: 2ceb969f-b0bf-3bcb-24e7-c667585ba706
+
+            - kind: SendActivity
+              id: sendActivity_8R1HqE
+              activity: "{Topic.Output}"
+
+            - kind: Question
+              id: question_BZVSGF
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var5
+              prompt: Pretendes continuar com a compra?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Sim
+                      displayName: Sim
+
+                    - id: Não
+                      displayName: Não
+
+            - kind: ConditionGroup
+              id: conditionGroup_X4WWx1
+              conditions:
+                - id: conditionItem_7sAJsV
+                  condition: =Topic.Var5 = 'cr4ab_avengersCopilot.topic.Untitled_8XB.main.question_BZVSGF'.Sim
+                  actions:
+                    - kind: Question
+                      id: question_OmrnPM
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var7
+                      prompt: Insere o código do produto, por favor
+                      entity: NumberPrebuiltEntity
+
+                    - kind: Question
+                      id: question_uMd3ur
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var4
+                      prompt: Insere a quantidade pretendida, por favor
+                      entity: NumberPrebuiltEntity
+
+                    - kind: Question
+                      id: question_vSv2m7
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var8
+                      prompt: Insere o teu email, por favor
+                      entity: EmailPrebuiltEntity
+
+                    - kind: InvokeFlowAction
+                      id: invokeFlowAction_qhrVnW
+                      input:
+                        binding:
+                          number: =Topic.Var7
+                          number_1: =Topic.Var4
+                          text: =Topic.Var8
+
+                      output:
+                        binding:
+                          descricao: Topic.Descricao
+                          resposta: Topic.Resposta
+
+                      flowId: 886ab4e5-b603-ef11-9f89-000d3a47f3c7
+
+                    - kind: SendActivity
+                      id: sendActivity_EKTOiw
+                      activity: |-
+                        {Topic.Resposta}
+                        
+                        {Topic.Descricao} 
+                        
+                        Foi enviado um email com a confirmação da compra!
+
+                    - kind: Question
+                      id: question_SauGc9
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.Var6
+                      prompt: Queres continuar a comprar?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Sim
+                              displayName: Sim
+
+                            - id: Não
+                              displayName: Não
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_rj0FcJ
+                      conditions:
+                        - id: conditionItem_CnRJPA
+                          condition: =Topic.Var6 = 'cr4ab_avengersCopilot.topic.Untitled_8XB.main.question_SauGc9'.Sim
+                          actions:
+                            - kind: GotoAction
+                              id: aVuLVy
+                              actionId: question_OmrnPM
+
+                        - id: conditionItem_YyU88O
+                          condition: =Topic.Var6 = 'cr4ab_avengersCopilot.topic.Untitled_8XB.main.question_SauGc9'.Não
+
+                    - kind: SendActivity
+                      id: sendActivity_kjF2Wr
+                      activity: |-
+                        Muito obrigado por escolheres a Avengers!
+                        
+                        Entra no nosso website e descobre as nossas novidades!
+                        
+                        {
+                        "https://site-c7gr0.powerappsportals.com/"
+                        
+                        }
+
+                    - kind: BeginDialog
+                      id: sTD7Dx
+                      dialog: cr4ab_avengersCopilot.topic.EndofConversation
+
+                - id: conditionItem_ivY989
+                  condition: =Topic.Var5 = 'cr4ab_avengersCopilot.topic.Untitled_8XB.main.question_BZVSGF'.Não
+                  actions:
+                    - kind: SendActivity
+                      id: sendActivity_DgPPId
+                      activity: Esperamos voltar a ver-te em breve!
+
+        - id: conditionItem_u1e2OZ
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Untitled_8XB.main.question_MsMtQ9'.Não
+          actions:
+            - kind: SendActivity
+              id: sendActivity_ymBmb9
+              activity: Esperamos voltar a ver-te em breve!
+
+    - kind: EndConversation
+      id: yE0UNQ

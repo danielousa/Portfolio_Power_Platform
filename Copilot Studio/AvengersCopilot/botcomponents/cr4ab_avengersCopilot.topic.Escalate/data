@@ -1,0 +1,108 @@
+kind: AdaptiveDialog
+startBehavior: CancelOtherTopics
+beginDialog:
+  kind: OnEscalate
+  id: main
+  intent:
+    displayName: Escalonar
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - Gostaria de falar com um técnico
+      - Falar com membro do suporte técnico
+      - Representante do cliente
+      - SAC
+      - Conectar-me com um agente humano
+      - Conectar-me com uma pessoa
+      - Conversar com uma pessoa
+      - Conversar com um representante
+      - Alguém pode me contatar por telefone?
+      - Agente do cliente
+      - Conversar com agente
+      - Conversar com alguém, por favor
+      - Quero falar com um técnico
+      - Gostaria de falar com um representante
+      - Preciso falar com um especialista
+      - Quero falar com um consultor
+      - Quero falar com o SAC
+      - Preciso que um gerente me contate
+      - Preciso que um gerente entre em contato comigo
+      - Preciso falar com um agente humano
+      - Quero continuar com o suporte ao vivo
+      - Preciso do SAC
+      - Preciso de ajuda de uma pessoa
+      - Posso falar com um assistente humano?
+      - Posso falar com uma pessoa?
+      - Alguém pode ligar para mim?
+      - Alguém pode me ligar?
+      - Um representante pode ligar para mim?
+      - Um representante pode me ligar?
+      - Você pode me informar um número ou ligar para mim?
+      - Você pode me informar um número ou me ligar?
+      - Posso falar com um representante?
+      - Posso agendar uma chamada?
+      - Posso falar com outra pessoa?
+      - Você pode me transferir para falar com uma pessoa?
+      - Posso ter suporte de um agente real?
+      - Posso ligar?
+      - Ligar para o suporte
+      - Um agente pode ligar para mim?
+      - Um agente pode me ligar?
+      - Ligue para mim, por favor
+      - Me ligue, por favor
+      - Liguem para mim, por favor
+      - Me liguem, por favor
+      - Falar com alguém
+      - Conversar com alguém
+      - Ligar para o suporte técnico
+      - Ligar para o SAC
+      - Falar com uma pessoa
+      - Retornar chamada
+      - Ligar de volta
+      - Falar com agente
+
+  actions:
+    - kind: SendActivity
+      id: sendMessage_s39DCt
+      conversationOutcome: Escalated
+      activity: |-
+        A transferência para um agente humano não está configurada no momento para este bot.
+        
+        Para mais esclarecimentos envia um email para iefp220@alunos.ipca.pt
+
+    - kind: Question
+      id: question_5Rrgz6
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: init:Topic.Var1
+      prompt: Posso ajudar com algo mais?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          items:
+            - id: Sim
+              displayName: Sim
+
+            - id: Não
+              displayName: Não
+
+    - kind: ConditionGroup
+      id: conditionGroup_XKjD2O
+      conditions:
+        - id: conditionItem_cX3OFb
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Escalate.main.question_5Rrgz6'.Sim
+          actions:
+            - kind: SendActivity
+              id: sendActivity_saOOEO
+              activity: Em que te posso ser útil?
+
+        - id: conditionItem_UX1glv
+          condition: =Topic.Var1 = 'cr4ab_avengersCopilot.topic.Escalate.main.question_5Rrgz6'.Não
+          actions:
+            - kind: SendActivity
+              id: sendActivity_JvNoTQ
+              activity: Obrigado por visitares a Avengers, esperamos voltar a ver-te em breve!
+
+            - kind: EndConversation
+              id: Sh8Km9

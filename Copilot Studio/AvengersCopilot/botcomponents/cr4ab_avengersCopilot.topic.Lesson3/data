@@ -1,0 +1,116 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Lição 3 – Um tópico com uma condição, variáveis e uma entidade predefinida
+    triggerQueries:
+      - Solicitar produto
+      - Comprar itens
+      - Comprar item
+      - Comprar online
+      - Comprar produto
+
+  actions:
+    - kind: SendActivity
+      id: Sjghab
+      activity: É um prazer ajudar você a fazer um pedido.
+
+    - kind: Question
+      id: eRH3BJ
+      alwaysPrompt: false
+      variable: init:Topic.State
+      prompt: Para qual estado será a remessa?
+      entity: StatePrebuiltEntity
+
+    - kind: ConditionGroup
+      id: sEzulE
+      conditions:
+        - id: pbR5LO
+          condition: =Topic.State = "California" || Topic.State = "Washington" || Topic.State = "Oregon"
+
+      elseActions:
+        - kind: SendActivity
+          id: X7BFUC
+          activity: Haverá um encargo extra de remessa de R$ 27,50.
+
+        - kind: Question
+          id: 6lyBi8
+          alwaysPrompt: false
+          variable: init:Topic.ShippingRateAccepted
+          prompt: Isso é aceitável?
+          entity: BooleanPrebuiltEntity
+
+        - kind: ConditionGroup
+          id: 9BR57P
+          conditions:
+            - id: BW47C4
+              condition: =Topic.ShippingRateAccepted = true
+
+          elseActions:
+            - kind: SendActivity
+              id: LMwySU
+              activity: Obrigado e volte sempre.
+
+            - kind: BeginDialog
+              id: 26GAbP
+              dialog: cr4ab_avengersCopilot.topic.EndofConversation
+
+    - kind: Question
+      id: mgz1sJ
+      alwaysPrompt: true
+      variable: init:Topic.Item
+      prompt: Qual item você está interessado em comprar? Nosso foco são alguns itens de qualidade.
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          smartMatchingEnabled: true
+          items:
+            - id: Desktop Computer
+              displayName: Computador Desktop
+
+            - id: Laptop Computer
+              displayName: Computador Laptop
+
+            - id: Gaming Computer
+              displayName: Computador para Jogos
+
+    - kind: ConditionGroup
+      id: 0qsIib
+      conditions:
+        - id: 1WP5jv
+          condition: =Topic.Item = 'cr4ab_avengersCopilot.topic.Lesson3.main.mgz1sJ'.'Desktop Computer'
+          actions:
+            - kind: SendActivity
+              id: PjNoWL
+              activity: Uma ótima opção para diagramadores!
+
+        - id: qI8gc3
+          condition: =Topic.Item = 'cr4ab_avengersCopilot.topic.Lesson3.main.mgz1sJ'.'Laptop Computer'
+          actions:
+            - kind: SendActivity
+              id: vj6Vbx
+              activity: Ótima opção para os profissionais que viajam!
+
+        - id: d7d1mq
+          condition: =Topic.Item = 'cr4ab_avengersCopilot.topic.Lesson3.main.mgz1sJ'.'Gaming Computer'
+          actions:
+            - kind: SendActivity
+              id: 25VVXi
+              activity: Vá para cima, campeão! O Sudoku ajuda a manter a mente ativa.
+
+    - kind: SendActivity
+      id: L3bEHg
+      activity: Estou adicionando {Topic.Item} ao seu carrinho.
+
+    - kind: SendActivity
+      id: 529q62
+      activity: |-
+        Para concluir o pedido, vá para seu carrinho.
+        
+        Obrigado!
+
+    - kind: BeginDialog
+      id: wn9EyA
+      dialog: cr4ab_avengersCopilot.topic.EndofConversation

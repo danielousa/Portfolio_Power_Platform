@@ -1,0 +1,321 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "api": {
+          "name": "shared_sharepointonline"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "cr4ab_sharedsharepointonline_0bf54"
+        },
+        "runtimeSource": "embedded"
+      },
+      "shared_office365": {
+        "api": {
+          "name": "shared_office365"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "cr4ab_sharedoffice365_a3354"
+        },
+        "runtimeSource": "embedded"
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "type": "Request",
+          "kind": "Skills",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "description": "Introduza um número",
+                  "title": "ID",
+                  "type": "number",
+                  "x-ms-content-hint": "NUMBER",
+                  "x-ms-dynamically-added": true
+                },
+                "number_1": {
+                  "description": "Introduza um número",
+                  "title": "Quantidade",
+                  "type": "number",
+                  "x-ms-content-hint": "NUMBER",
+                  "x-ms-dynamically-added": true
+                },
+                "text": {
+                  "description": "Introduzir os dados introduzidos",
+                  "title": "Email",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "required": [
+                "number",
+                "number_1",
+                "text"
+              ]
+            }
+          },
+          "metadata": {
+            "operationMetadataId": "b8f61c18-7224-4f8a-9c5f-72fbce5df764"
+          }
+        }
+      },
+      "actions": {
+        "Respond_to_Copilot": {
+          "type": "Response",
+          "kind": "Skills",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "resposta": {
+                  "title": "Resposta",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                },
+                "descricao": {
+                  "title": "Descricao",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "additionalProperties": {}
+            },
+            "statusCode": 200,
+            "body": {
+              "resposta": "@variables('Resposta_cliente')",
+              "descricao": "@variables('Descricao_compra')"
+            }
+          },
+          "runAfter": {
+            "Definir_variável_3": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "81c94f73-dd52-465c-ad3b-a4686da63cc3"
+          }
+        },
+        "Obter_itens": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "https://alunosipca.sharepoint.com/sites/AvengersTeam",
+              "table": "9c2d4d8f-b47e-4e52-9092-d2758e4828c5",
+              "$filter": "ID eq ' @{triggerBody()?['number']}' "
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "GetItems",
+              "connectionName": "shared_sharepointonline"
+            }
+          },
+          "runAfter": {}
+        },
+        "Inicializar_variável": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Preco",
+                "type": "integer"
+              }
+            ]
+          },
+          "runAfter": {
+            "Obter_itens": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Inicializar_variável_1": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Quantidade_disponivel",
+                "type": "integer"
+              }
+            ]
+          },
+          "runAfter": {
+            "Inicializar_variável": [
+              "Succeeded"
+            ]
+          }
+        },
+        "For_each": {
+          "type": "Foreach",
+          "foreach": "@outputs('Obter_itens')?['body/value']",
+          "actions": {
+            "Definir_variável": {
+              "type": "SetVariable",
+              "inputs": {
+                "name": "Preco",
+                "value": "@int(items('For_each')?['field_1'])"
+              }
+            },
+            "Definir_variável_1": {
+              "type": "SetVariable",
+              "inputs": {
+                "name": "Quantidade_disponivel",
+                "value": "@int(items('For_each')?['field_2'])"
+              },
+              "runAfter": {
+                "Definir_variável": [
+                  "Succeeded"
+                ]
+              }
+            }
+          },
+          "runAfter": {
+            "Inicializar_variável_1": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Condição": {
+          "type": "If",
+          "expression": {
+            "and": [
+              {
+                "less": [
+                  "@sub(variables('Quantidade_disponivel'),triggerBody()?['number_1'])",
+                  0
+                ]
+              }
+            ]
+          },
+          "actions": {},
+          "else": {
+            "actions": {
+              "Definir_variável_2": {
+                "type": "SetVariable",
+                "inputs": {
+                  "name": "Resposta_cliente",
+                  "value": "O pedido foi aprovado"
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Inicializar_variável_2": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Inicializar_variável_2": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Resposta_cliente",
+                "type": "string",
+                "value": "A quantidade pedida não está disponível"
+              }
+            ]
+          },
+          "runAfter": {
+            "For_each": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Criar_item": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "https://alunosipca.sharepoint.com/sites/AvengersTeam",
+              "table": "42171dbc-6977-48c9-8e6a-2a71fe29479d",
+              "item/Email": "@triggerBody()?['text']",
+              "item/Codigo_Produto": "@triggerBody()?['number']",
+              "item/Quantidade_pedida": "@triggerBody()?['number_1']",
+              "item/Confirmacao_de_compra": true,
+              "item/Preco_final": "@mul(triggerBody()?['number_1'],variables('Preco'))"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "PostItem",
+              "connectionName": "shared_sharepointonline"
+            }
+          },
+          "runAfter": {
+            "Condição": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Definir_variável_3": {
+          "type": "SetVariable",
+          "inputs": {
+            "name": "Descricao_compra",
+            "value": "\n| @{body('Criar_item')?['Codigo_Produto']} | @{body('Criar_item')?['Quantidade_pedida']}  |  @{body('Criar_item')?['Preco_final']}€|"
+          },
+          "runAfter": {
+            "Inicializar_variável_6": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Inicializar_variável_6": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Descricao_compra",
+                "type": "string",
+                "value": "| Código | Quantidade | Valor Compra |\n|---------|--------------|-----------------|"
+              }
+            ]
+          },
+          "runAfter": {
+            "Enviar_um_e-mail_(V2)": [
+              "Succeeded"
+            ]
+          }
+        },
+        "Enviar_um_e-mail_(V2)": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "emailMessage/To": "@body('Criar_item')?['Email']",
+              "emailMessage/Subject": "Confirmação de compra na Avengers",
+              "emailMessage/Body": "<p>Olá!</p><br><p>Confirmamos que a tua compra foi realizada!</p><p><br><b><strong>Resumo da compra</strong></b></p><br><p>Código do produto: @{body('Criar_item')?['Codigo_Produto']}</p><p>Quantidade pedida: @{body('Criar_item')?['Quantidade_pedida']}</p><p>Valor da compra: @{body('Criar_item')?['Preco_final']}€</p><br><br><p>Obrigado por escolheres a Avengers!</p><p>A equipa</p>",
+              "emailMessage/Importance": "High"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+              "operationId": "SendEmailV2",
+              "connectionName": "shared_office365"
+            }
+          },
+          "runAfter": {
+            "Criar_item": [
+              "Succeeded"
+            ]
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

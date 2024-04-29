@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr4ab_avengersCopilot.topic.Untitled_8XB">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Compra_Produto</name>
+  <parentbotid>
+    <schemaname>cr4ab_avengersCopilot</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

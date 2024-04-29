@@ -1,0 +1,34 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Lição 1 – Um tópico simples
+    triggerQueries:
+      - Horário de funcionamento da loja
+      - Quando vocês abrem?
+      - Quando você abre?
+      - Horário de funcionamento diário
+      - Quando vocês fecham?
+      - Quando você fecha?
+
+  actions:
+    - kind: SendActivity
+      id: Ystyaa
+      activity: É um prazer ajudar você com o horário de funcionamento da loja.
+
+    - kind: SendActivity
+      id: 6Jn5pw
+      activity: |-
+        Os horários de São Paulo são os seguintes:
+        - Seg a Sex: 9h00 às 18h00
+        - Sáb: 10h00 às 16h00
+        - Dom: fechado
+        
+        Os horários de Campinas são os seguintes:
+        - Seg a Sex: 9h00 às 18h00
+        - Sáb e Dom: 10h00 às 16h00
+
+    - kind: BeginDialog
+      id: Dj0B0N
+      dialog: cr4ab_avengersCopilot.topic.EndofConversation

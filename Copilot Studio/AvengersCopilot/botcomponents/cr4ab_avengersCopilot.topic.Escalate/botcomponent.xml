@@ -1,0 +1,13 @@
+<botcomponent schemaname="cr4ab_avengersCopilot.topic.Escalate">
+  <componenttype>9</componenttype>
+  <description>Esse tópico do sistema é disparado quando o usuário indica que gostaria de conversar com um agente humano.
+Você pode configurar como o bot tratará os cenários de entrega humana nas configurações do bot.
+Se o bot não tratar escalonamentos, esse tópico deverá ser desabilitado.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Escalonar</name>
+  <parentbotid>
+    <schemaname>cr4ab_avengersCopilot</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr4ab_avengersCopilot.topic.OnError">
+  <componenttype>9</componenttype>
+  <description>Esse tópico do sistema é disparado quando o bot encontra um erro. Ao usar o painel de chat de teste, a descrição completa do erro é exibida.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Se Houver Erro</name>
+  <parentbotid>
+    <schemaname>cr4ab_avengersCopilot</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

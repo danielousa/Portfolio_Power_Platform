@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr4ab_avengersCopilot.topic.Signin">
+  <componenttype>9</componenttype>
+  <description>Esse tópico do sistema é disparado quando o bot precisa conectar o usuário ou exige que o usuário entre no serviço</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Entrar </name>
+  <parentbotid>
+    <schemaname>cr4ab_avengersCopilot</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

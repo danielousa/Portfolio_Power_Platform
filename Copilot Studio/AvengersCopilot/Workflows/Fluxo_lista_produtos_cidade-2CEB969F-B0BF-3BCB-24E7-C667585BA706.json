@@ -1,0 +1,152 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "api": {
+          "name": "shared_sharepointonline"
+        },
+        "connection": {
+          "connectionReferenceLogicalName": "cr4ab_sharedsharepointonline_0bf54"
+        },
+        "runtimeSource": "embedded"
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "type": "Request",
+          "kind": "Skills",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "description": "Introduzir os dados introduzidos",
+                  "title": "Cidade",
+                  "type": "string",
+                  "x-ms-content-hint": "TEXT",
+                  "x-ms-dynamically-added": true
+                }
+              },
+              "required": [
+                "text"
+              ]
+            }
+          },
+          "metadata": {
+            "operationMetadataId": "b8f61c18-7224-4f8a-9c5f-72fbce5df764"
+          }
+        }
+      },
+      "actions": {
+        "Respond_to_Copilot": {
+          "type": "Response",
+          "kind": "Skills",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "output": {
+                  "title": "Output",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              },
+              "additionalProperties": {}
+            },
+            "statusCode": 200,
+            "body": {
+              "output": "@variables('Nome')"
+            }
+          },
+          "runAfter": {
+            "Aplicar_a_cada": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "81c94f73-dd52-465c-ad3b-a4686da63cc3"
+          }
+        },
+        "Obter_itens": {
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "dataset": "https://alunosipca.sharepoint.com/sites/AvengersTeam",
+              "table": "9c2d4d8f-b47e-4e52-9092-d2758e4828c5",
+              "$filter": "Cidade eq '@{triggerBody()?['text']}' and field_2  gt 0"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+              "operationId": "GetItems",
+              "connectionName": "shared_sharepointonline"
+            }
+          },
+          "runAfter": {
+            "Inicializar_variável": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "5a11c3f1-f0b7-4843-9f92-dc191a70356b"
+          }
+        },
+        "Inicializar_variável": {
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Nome",
+                "type": "string",
+                "value": "| Codigo | Produto | Preco|\n|---------|----------|-------|"
+              }
+            ]
+          },
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "c2213a7d-7937-4743-a5e2-6d181f299cee"
+          }
+        },
+        "Aplicar_a_cada": {
+          "type": "Foreach",
+          "foreach": "@outputs('Obter_itens')?['body/value']",
+          "actions": {
+            "Acrescentar_à_variável_da_cadeia": {
+              "type": "AppendToStringVariable",
+              "inputs": {
+                "name": "Nome",
+                "value": "\n| @{items('Aplicar_a_cada')?['ID']} | @{items('Aplicar_a_cada')?['Title']} | @{items('Aplicar_a_cada')?['field_1']} |"
+              },
+              "metadata": {
+                "operationMetadataId": "4a945828-3bde-46d0-9d48-53367bc7fee5"
+              }
+            }
+          },
+          "runAfter": {
+            "Obter_itens": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "c0e35b99-267a-40df-af06-9b5ab7984c33"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}
