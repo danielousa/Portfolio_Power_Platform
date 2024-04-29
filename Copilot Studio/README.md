@@ -16,3 +16,5 @@ The costumer receive the feedback on the chatbot and by email.
 
 
 
+Opening hours flow
+
