@@ -21,3 +21,7 @@ Opening hours flow
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/43885018-b79e-4be8-a65d-af8e1cce304a)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/fde0817e-a2a2-4100-b288-faafbf2cf1e2)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6cd5100f-87e1-4c27-8681-66d20dd950e8)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/2c03796c-da34-444c-92dc-e6dbbfa1f612)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6b52ad51-e41a-4261-87c5-238855fc23c3)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1fdbbdbe-b929-46dc-93f3-ea1801377b2f)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6603f556-6053-469b-9cde-0f77cb929bd0)
