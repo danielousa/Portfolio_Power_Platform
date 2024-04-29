@@ -18,3 +18,6 @@ The costumer receive the feedback on the chatbot and by email.
 
 Opening hours flow
 
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/43885018-b79e-4be8-a65d-af8e1cce304a)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/fde0817e-a2a2-4100-b288-faafbf2cf1e2)
+![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6cd5100f-87e1-4c27-8681-66d20dd950e8)
