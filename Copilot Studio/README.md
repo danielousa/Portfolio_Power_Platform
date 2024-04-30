@@ -2,8 +2,8 @@
 
 Buy a product flow
 
-This flow show to the customer see the available products. Permit his selection and the purchase.
-The costumer receive the feedback on the chatbot and by email.
+This flow show to the customer the available products. Permit his selection and the purchase.
+The customer receive the feedback on the chatbot and by email.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6013fd07-6f19-47d0-92c7-0f8830d6b07f)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1e1f1ea8-27ff-4b71-8891-eafdaacbc054)
