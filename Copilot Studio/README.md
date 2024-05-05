@@ -46,8 +46,7 @@ Opening hours flow
 
 This flow let know the customer now the horary of our gym, by city, and receive the overall schedule of ours activities.
 
-
-
+This is an OnRecognizedIntent node named main. It's triggered when one of the specified intents (Qual é o horário de funcionamento do ginásio?, horario funcionamento, horario, horário) is recognized. This is the first action inside the main node. It asks the user for the city they're interested in.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/43885018-b79e-4be8-a65d-af8e1cce304a)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/fde0817e-a2a2-4100-b288-faafbf2cf1e2)
