@@ -1,5 +1,18 @@
 # Portfolio_Copilot_Studio
 
+Introduction
+
+Welcome to Avengers Gym Assistant! 💪
+
+Our gym assistant is here to provide you with all the information you need about our gym facilities and services. Whether you're interested in purchasing a product or learning about our operating hours, we've got you covered!
+
+If you're looking to buy a product, simply let us know, and we'll guide you through the process. We offer a variety of gym-related products to enhance your fitness journey.
+
+Alternatively, if you're curious about our gym's operating hours, just tell us your city, and we'll provide you with the schedule. We have gyms in Matosinhos, Gondomar, Setúbal, and Espinho, each offering different activities such as yoga, cycling, and weightlifting.
+
+So, whether you're ready to explore our product offerings or want to know more about our operating hours, our Avengers Gym Assistant is here to assist you every step of the way. Let's get started on achieving your fitness goals together! 🏋️‍♂️🏋️‍♀️
+
+
 Buy a product flow
 
 This flow show to the customer the available products. Permit his selection and the purchase.
