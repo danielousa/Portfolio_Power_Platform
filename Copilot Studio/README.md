@@ -49,6 +49,9 @@ This flow let know the customer now the horary of our gym, by city, and receive 
 This is an OnRecognizedIntent node named main. It's triggered when one of the specified intents (Qual é o horário de funcionamento do ginásio?, horario funcionamento, horario, horário) is recognized. This is the first action inside the main node. It asks the user for the city they're interested in.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/43885018-b79e-4be8-a65d-af8e1cce304a)
+
+This is a conditional branching node. It checks the user's response about the city and directs the flow accordingly.  This question node asks the user for their preferred activity, such as yoga, cycling, or weightlifting.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/fde0817e-a2a2-4100-b288-faafbf2cf1e2)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6cd5100f-87e1-4c27-8681-66d20dd950e8)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/2c03796c-da34-444c-92dc-e6dbbfa1f612)
