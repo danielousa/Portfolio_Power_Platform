@@ -31,5 +31,7 @@ Market Reasearch: Create a data analytics research that helps to answer the foll
 Using the previosly created Dtaverse table our solutions passes to:
 
 Power Pages Website:
+
 A Copilot chatbot:
+
 A Power Bi dashboard
