@@ -35,6 +35,9 @@ This question node asks for the user's email. This action invokes another flow, 
 This action sends a confirmation message to the user.  This question node asks if the user wants to continue shopping.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/2ae65a55-6f7c-48e6-8744-f201bacdcc9c)
+
+Another conditional branching node based on the user's response. This action sends a thank you message to the user if they choose not to continue shopping. This action ends the conversation.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/b3099517-5d15-404e-b8a7-5cade76298c9)
 
 
