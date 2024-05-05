@@ -5,6 +5,9 @@ Buy a product flow
 This flow show to the customer the available products. Permit his selection and the purchase.
 The customer receive the feedback on the chatbot and by email.
 
+This is an OnRecognizedIntent node named main. It's triggered when one of the specified intents (Quero comprar um produto, produtos, Produtos, produto ginasio) is recognized.
+This is the first action inside the main node. It asks the user whether they want to know about your products. Depending on their response, it leads to different branches of the dialog.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6013fd07-6f19-47d0-92c7-0f8830d6b07f)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1e1f1ea8-27ff-4b71-8891-eafdaacbc054)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/b6c36992-b59a-4a23-9bf4-88e118ef6390)
