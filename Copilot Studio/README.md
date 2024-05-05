@@ -15,6 +15,11 @@ This is another question node inside the first condition group. It asks the user
 
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1e1f1ea8-27ff-4b71-8891-eafdaacbc054)
+
+This action sets the value of a variable Topic.Var3 to the selected city.
+ This action invokes another flow based on the selected city.
+  This action invokes another flow based on the selected city.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/b6c36992-b59a-4a23-9bf4-88e118ef6390)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/fb9a81cc-46ae-4b4e-a7e4-2887988ad508)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/d14bb198-4513-4619-b8eb-35ae2b811f04)
