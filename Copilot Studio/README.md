@@ -65,5 +65,8 @@ This action invokes another flow based on the selected activity and city. This a
  This question node asks if the user wants to receive the gym's schedule via email. Another conditional branching node based on the user's email preference.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6b52ad51-e41a-4261-87c5-238855fc23c3)
+
+ This question node asks the user to provide their email address if they choose to receive the schedule via email. This action invokes another flow, possibly to send the schedule to the provided email address.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1fdbbdbe-b929-46dc-93f3-ea1801377b2f)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6603f556-6053-469b-9cde-0f77cb929bd0)
