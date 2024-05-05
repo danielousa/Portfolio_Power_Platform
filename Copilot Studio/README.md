@@ -9,6 +9,11 @@ This is an OnRecognizedIntent node named main. It's triggered when one of the sp
 This is the first action inside the main node. It asks the user whether they want to know about your products. Depending on their response, it leads to different branches of the dialog.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6013fd07-6f19-47d0-92c7-0f8830d6b07f)
+
+This is a conditional branching node. It checks the response from the first question and directs the flow accordingly.
+This is another question node inside the first condition group. It asks the user to choose their city.
+
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1e1f1ea8-27ff-4b71-8891-eafdaacbc054)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/b6c36992-b59a-4a23-9bf4-88e118ef6390)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/fb9a81cc-46ae-4b4e-a7e4-2887988ad508)
