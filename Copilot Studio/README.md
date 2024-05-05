@@ -53,6 +53,9 @@ This is an OnRecognizedIntent node named main. It's triggered when one of the sp
 This is a conditional branching node. It checks the user's response about the city and directs the flow accordingly.  This question node asks the user for their preferred activity, such as yoga, cycling, or weightlifting.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/fde0817e-a2a2-4100-b288-faafbf2cf1e2)
+
+ This is another conditional branching node based on the user's activity preference.  This action sets the value of variables Topic.Var11 and Topic.Var12 to the selected activity and city, respectively.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6cd5100f-87e1-4c27-8681-66d20dd950e8)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/2c03796c-da34-444c-92dc-e6dbbfa1f612)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6b52ad51-e41a-4261-87c5-238855fc23c3)
