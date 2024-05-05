@@ -1,6 +1,6 @@
 # Portfolio_Power_Automate
 
- Analytic_Avengers_Flow_Authorizing_of_Leaving
+# Analytic_Avengers_Flow_Authorizing_of_Leaving
 
 
 The flow consists of the following steps:
@@ -13,7 +13,7 @@ Send Email V2: An email is sent to "iefp220@alunos.ipca.pt" with the subject "Pe
 
  ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6bfb080f-5394-48d9-b9f3-56b3978a7755)
 
-Analytic_Avengers_Flow_Purchase_Approval
+# Analytic_Avengers_Flow_Purchase_Approval
 
 
 The flow starts with a trigger that subscribes to a webhook. It listens for a message with specific entity name and scope.
@@ -28,7 +28,7 @@ If the outcome of this approval is "Approve", it updates the same record as befo
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/62932749-5919-473f-b628-df8b43d27424)
 
-Analytic_Avengers_Flow_Sharepoint_New_File
+# Analytic_Avengers_Flow_Sharepoint_New_File
 
 The flow consists of the following steps:
 
@@ -42,7 +42,7 @@ SendEmailV2: Sends an email notification to the assigned user if the approval ou
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/83894187-2b78-475d-bb45-fe7a6896bac6)
 
-Analytic_Avengers_Flow_Sharepoint_New_Item
+# Analytic_Avengers_Flow_Sharepoint_New_Item
 
 The flow consists of two steps:
 
@@ -52,7 +52,7 @@ Action: An email is sent using the "SendEmailV2" action from the Office 365 conn
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/3f542ec1-6331-4ba9-853c-49ab05786ac9)
 
-Analytic_Avengers_atualize_projeto1_power_automate
+# Analytic_Avengers_atualize_projeto1_power_automate
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6c990c59-d4e5-4d67-9832-a1a018acaadd)
 
