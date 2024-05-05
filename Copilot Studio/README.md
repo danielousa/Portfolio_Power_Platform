@@ -57,6 +57,9 @@ This is a conditional branching node. It checks the user's response about the ci
  This is another conditional branching node based on the user's activity preference.  This action sets the value of variables Topic.Var11 and Topic.Var12 to the selected activity and city, respectively.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6cd5100f-87e1-4c27-8681-66d20dd950e8)
+
+This action invokes another flow based on the selected activity and city. This action sends a message to the user with the output from the invoked flow, which likely contains the gym's operating hours.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/2c03796c-da34-444c-92dc-e6dbbfa1f612)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/6b52ad51-e41a-4261-87c5-238855fc23c3)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1fdbbdbe-b929-46dc-93f3-ea1801377b2f)
