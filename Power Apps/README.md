@@ -1,5 +1,5 @@
 # Portfolio_Power_Apps
- Canvas Tablet developed
+# Canvas Tablet developed
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4b73f03b-458b-4450-9cf4-8895af20b4b1)
 
@@ -18,7 +18,7 @@
 
 
 
-Canvas Mobile developed
+# Canvas Mobile developed
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1283cf55-71e7-4196-a3ac-6cc34427abe8) ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/90b184d4-c319-4796-9db1-7cc8f374cf9a)
 
@@ -31,7 +31,7 @@ Canvas Mobile developed
 
 
 
-Solution Analytic Avengers
+# Solution Analytic Avengers
 
 Main Form
 
@@ -40,7 +40,7 @@ Main Form
 
 
 
-Solution Projeto_Ferias
+# Solution Projeto_Ferias
 
 Business Rules
 
