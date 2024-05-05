@@ -16,7 +16,7 @@ The gym's requirements include:
 
 
 # Second Part
-After a great success with the app the company asked the team to create a website that contained a chatbot! Also the company needed help to choose a new location, product to sell and what new sport to add.
+After a great success with the app the company asked the team to create a website that contained a chatbot!
 
 # Project Requirements
 To address the challenges faced by the gym, we have implemented the following solutions:
@@ -24,8 +24,6 @@ To address the challenges faced by the gym, we have implemented the following so
 An outside facing website: Develop a user-friendly website that serves as an outside face for the gym. This app enables students to enroll, check the classes.
 
 Chatbot: A chatbit that helps students to navigate the world of power lift!
-
-Market Reasearch: Create a data analytics research that helps to answer the following questions: 1) where to open the new gym?; 2) what to sell in the gym?; 3) what modality should we include?.
 
 # The Solution: Overview
 Using the previosly created Dtaverse table our solutions passes to:
