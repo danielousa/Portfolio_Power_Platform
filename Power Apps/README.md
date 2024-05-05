@@ -1,4 +1,5 @@
 # Portfolio_Power_Apps
+
 # Canvas Tablet developed
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4b73f03b-458b-4450-9cf4-8895af20b4b1)
@@ -15,10 +16,12 @@
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/3331dc78-0d78-4fca-aba3-aa85f26f3ab2)
 
-
-
-
 # Canvas Mobile developed
+
+<p align="center">
+  <img src="![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1283cf55-71e7-4196-a3ac-6cc34427abe8) 
+" alt="Image" width="400" height="300" />
+</p>
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1283cf55-71e7-4196-a3ac-6cc34427abe8) 
 
@@ -36,16 +39,11 @@
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/8f73f183-cfc8-40a5-8b2c-20e105eb4ae9)
 
-
-
-
 # Solution Analytic Avengers
 
 Main Form
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4067e00a-81e2-46aa-bf32-aa50b96049c5)
-
-
 
 
 # Solution Projeto_Ferias
