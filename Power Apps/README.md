@@ -18,9 +18,9 @@
 
 # Canvas Mobile developed
 
-<div style="text-align:center">
+<p align="center">
   <iframe src="![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1283cf55-71e7-4196-a3ac-6cc34427abe8) " width="600" height="400" frameborder="0" allowfullscreen></iframe>
-</div>
+</p>
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1283cf55-71e7-4196-a3ac-6cc34427abe8) 
 
