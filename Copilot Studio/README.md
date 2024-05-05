@@ -27,6 +27,9 @@ This is another question node asking if the user wants to continue with the purc
 This question node asks for the product code if the user chooses to continue with the purchase. This question node asks for the quantity of the product.
 
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/d14bb198-4513-4619-b8eb-35ae2b811f04)
+
+This question node asks for the user's email. This action invokes another flow, possibly to process the purchase details.
+
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/b9b47fff-b2d5-4644-b3bf-c09262b4f920)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/2ae65a55-6f7c-48e6-8744-f201bacdcc9c)
 ![image](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/b3099517-5d15-404e-b8a7-5cade76298c9)
