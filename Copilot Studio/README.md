@@ -1,6 +1,6 @@
 # Portfolio_Copilot_Studio
 
-Introduction
+# Introduction
 
 Welcome to Avengers Gym Assistant! 💪
 
@@ -13,7 +13,7 @@ Alternatively, if you're curious about our gym's operating hours, just tell us y
 So, whether you're ready to explore our product offerings or want to know more about our operating hours, our Avengers Gym Assistant is here to assist you every step of the way. Let's get started on achieving your fitness goals together! 🏋️‍♂️🏋️‍♀️
 
 
-Buy a product flow
+# Buy a product flow
 
 This flow show to the customer the available products. Permit his selection and the purchase.
 The customer receive the feedback on the chatbot and by email.
@@ -55,7 +55,7 @@ Another conditional branching node based on the user's response. This action sen
 
 
 
-Opening hours flow
+# Opening hours flow
 
 This flow let know the customer now the horary of our gym, by city, and receive the overall schedule of ours activities.
 
