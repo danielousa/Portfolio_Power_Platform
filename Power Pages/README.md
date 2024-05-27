@@ -1,35 +1,27 @@
-# Portfolio_Power_Platform
- All work developed
-
-The gym is embarking on a transformative journey to enhance its operations and member experience. This includes the implementation of a mobile application to regulate member access, gain insights into teacher performance, and discern the popularity of different classes. Furthermore, the gym aims to comprehensively digitize its operations, as its current technology infrastructure is virtually non-existent.
-
-# Project Requirements
-The gym's requirements include:
-
-1. A Dataverse-Powered Database: Establish a robust Dataverse-based database to efficiently store student information, teacher profiles, class details, and real-time gym occupancy.
-
-2. User-Friendly Gym App: Develop a user-friendly mobile application that serves as an interface within the gym. This app enables students to log in, select their desired classes, and manage their gym attendance seamlessly.
-
-3. Automated Email Notifications: Implement an automated email notification system to communicate with students under specific conditions: a) when a user achieves a milestone of 100 consecutive gym visits and b) when a user misses two consecutive days of gym attendance.
-
-4. Comprehensive Data Analytics: Create a data analytics system that aggregates and analyzes data collected from the app, providing valuable insights to help optimize gym operations and improve the overall experience for students.
+# Portfolio_Power_Pages
 
 
-# Second Part
-After a great success with the app the company asked the team to create a website that contained a chatbot!
 
-# Project Requirements
-To address the challenges faced by the gym, we have implemented the following solutions:
+![pPg1](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/4cf960a2-f42c-4a3e-a21e-21f490f329ea)
 
-An outside facing website: Develop a user-friendly website that serves as an outside face for the gym. This app enables students to enroll, check the classes.
+![pPg2](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/e4e3d7d8-ba87-4533-bf61-4bd7e3b63e3a)
 
-Chatbot: A chatbit that helps students to navigate the world of power lift!
+![pPg3](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/354b9b16-ad88-43f9-838c-b7d461fa087e)
 
-# The Solution: Overview
-Using the previosly created Dtaverse table our solutions passes to:
+![pPg4](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/8b5de21b-a229-4150-b601-78e6ac33dd96)
 
-Power Pages Website:
+![pPg5](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/a15cb1d2-9c07-4a8a-a56b-5ec8f5f00952)
 
-A Copilot chatbot:
+![pPg6](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/d15050fd-5c8c-49ed-81ec-8c680f2d780c)
 
-A Power Bi dashboard
+![pPg7](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/f82d0f43-087d-445a-a921-f32af22edb76)
+
+![pPg8](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/1986bb21-0f5c-4347-8b99-51aa848b3571)
+
+![pPg9](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/b8a972cd-6dcc-4ad0-b34e-a1901aabadfd)
+
+![pPg10](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/9a0673e9-9ab5-4ead-a15d-149ebbd2b378)
+
+![pPg11](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/637619a4-d449-447b-9710-7ab7a16e75a9)
+
+![pPg12](https://github.com/danielousa/Portfolio_Power_Platform/assets/159817085/2c76b6d1-a2fb-4362-ad01-7487bb0ae5eb)
