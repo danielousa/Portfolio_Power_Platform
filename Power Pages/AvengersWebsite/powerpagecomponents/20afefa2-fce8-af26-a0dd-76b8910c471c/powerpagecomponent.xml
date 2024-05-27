@@ -1,0 +1,30 @@
+<powerpagecomponent powerpagecomponentid="20afefa2-fce8-af26-a0dd-76b8910c471c">
+  <content>{
+  "filecontent": null,
+  "displayorder": 7,
+  "customcss": "",
+  "customjavascript": "",
+  "pagetemplateid": "a02830d6-3835-43b0-882e-9678b251695e",
+  "parentpageid": "d56dd053-d714-4f1a-a180-b5cd3c8332da",
+  "partialurl": "Loja",
+  "isroot": true,
+  "title": "Loja",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Loja</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>LojaLoja</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

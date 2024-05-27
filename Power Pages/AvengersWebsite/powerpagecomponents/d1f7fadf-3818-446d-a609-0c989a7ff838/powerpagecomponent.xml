@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="d1f7fadf-3818-446d-a609-0c989a7ff838">
+  <content>{"display_name":"Header/Toggle Navigation","type":756150001,"value":"Toggle navigation\r\n"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Header/Toggle Navigation</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>2d45039e-31ad-4637-af16-4022cf63d280</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

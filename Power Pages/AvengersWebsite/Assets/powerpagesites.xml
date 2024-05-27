@@ -1,0 +1,11 @@
+<powerpagesites>
+  <powerpagesite powerpagesiteid="85c0ce8d-df89-4ea2-877e-017c0b9df2b7">
+    <content>{"defaultlanguage":"2d45039e-31ad-4637-af16-4022cf63d280","footerwebtemplateid":"56e566ce-dc7e-41c5-a8ca-cf1ac9ab32f1","headerwebtemplateid":"3a75abfe-4ee5-4c45-8597-69563cb721b5","statecode":0,"statuscode":1,"website_language":1033}</content>
+    <datamodelversion>2.0</datamodelversion>
+    <iscustomizable>1</iscustomizable>
+    <name>avengers1 - site-c7gr0</name>
+    <primarydomainname>site-c7gr0.powerappsportals.com</primarydomainname>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </powerpagesite>
+</powerpagesites>

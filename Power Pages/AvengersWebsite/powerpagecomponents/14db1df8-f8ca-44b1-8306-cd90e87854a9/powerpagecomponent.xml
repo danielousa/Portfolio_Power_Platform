@@ -1,0 +1,20 @@
+<powerpagecomponent powerpagecomponentid="14db1df8-f8ca-44b1-8306-cd90e87854a9">
+  <content>{"copy":"&lt;div class='row sectionBlockLayout text-start' style='min-height: auto; padding: 8px;'&gt;\r\n  &lt;div class='container' style='display: flex; flex-wrap: wrap;'&gt;\r\n    &lt;div class='col-lg-12 columnBlockLayout' style='padding: 16px; margin: 60px 0px;'&gt;&lt;/div&gt;\r\n  &lt;/div&gt;\r\n&lt;/div&gt;\r\n","displayorder":4,"enablerating":false,"enabletracking":false,"excludefromsearch":false,"feedbackpolicy":756150000,"hiddenfromsitemap":true,"isroot":false,"pagetemplateid":"f9f640d6-ec25-450c-9de2-9ca57eca5816","parentpageid":"8bc31e9d-6d7c-451f-a670-68041928e612","partialurl":"search","publishingstateid":"6e339278-347b-4c19-95ce-782b066f7454","rootwebpageid":"bc6f3441-f827-49ab-b6ec-5f4961891c9d","sharedpageconfiguration":true,"summary":"&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;\r\n","title":"search"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>2d45039e-31ad-4637-af16-4022cf63d280</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>search&lt;div class='row sectionBlockLayout text-start' style='min-height: auto; padding: 8px;'&gt;
+  &lt;div class='container' style='display: flex; flex-wrap: wrap;'&gt;
+    &lt;div class='col-lg-12 columnBlockLayout' style='padding: 16px; margin: 60px 0px;'&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Search</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

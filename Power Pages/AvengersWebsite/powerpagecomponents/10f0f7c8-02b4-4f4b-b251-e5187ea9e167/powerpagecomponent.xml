@@ -1,0 +1,56 @@
+<powerpagecomponent powerpagecomponentid="10f0f7c8-02b4-4f4b-b251-e5187ea9e167">
+  <content>{
+  "filecontent": null,
+  "copy": "&lt;div id=\"ij44f\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"idunl\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ik63l\" class=\"col-lg-12 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px; margin: 60px 0px;\"&gt;&lt;h2 id=\"iwtgg\" style=\"text-align: center; text-shadow: 0px 0px 5px #000000;\"&gt;Reviews&lt;/h2&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"iglz9\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"iiplhh\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ixm48t\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;&lt;img src=\"/Orangutan-face.jpg\" alt=\"Orangutan-face\" name=\"Orangutan-face.jpg\" id=\"ichqwi\" style=\"width: 100%; height: auto; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"in70v8\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;h2 id=\"iez4jg\"&gt;Review de Asdrubal&lt;/h2&gt;\n      &lt;p id=\"ip0jut\"&gt;&amp;nbsp;A Avengers Gym oferece uma atmosfera robusta e motivadora para os entusiastas do fitness. Com uma ampla variedade de equipamentos de alta qualidade e instrutores dedicados, este ginásio é o lugar perfeito para transformar metas em conquistas.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"iypmdi\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" id=\"i898fg\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" id=\"irr2sb\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;&lt;img src=\"/Chimpanzee-speaking.jpg\" alt=\"Chimpanzee-speaking\" name=\"Chimpanzee-speaking.jpg\" id=\"inpk3g\" style=\"width: 100%; height: auto; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" id=\"i0mk3r\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;h2 id=\"im5exs\"&gt;Review de Antónia&lt;/h2&gt;\n      &lt;p id=\"io0syi\"&gt;&amp;nbsp;O Avengers gym impressiona com seu design moderno e atmosfera acolhedora. Equipamentos de última geração se combinam com espaços bem organizados para musculação, cardio e aulas em grupo. Com uma equipe simpática e instalações de alta qualidade, o Avengers gym promete ser o destino ideal para alcançar seus objetivos fitness.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "displayorder": 2,
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "feedbackpolicy": 756150000,
+  "hiddenfromsitemap": false,
+  "isroot": false,
+  "pagetemplateid": "a02830d6-3835-43b0-882e-9678b251695e",
+  "parentpageid": "d56dd053-d714-4f1a-a180-b5cd3c8332da",
+  "partialurl": "Reviews",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "rootwebpageid": "2825801f-29a9-403b-939e-cda50a4ae539",
+  "sharedpageconfiguration": true,
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;\r\n",
+  "title": "Subpage two"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Reviews</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>2d45039e-31ad-4637-af16-4022cf63d280</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Subpage two&lt;div id="ij44f" data-component-theme="portalThemeColor3" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="idunl" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ik63l" class="col-lg-12 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; padding: 16px; margin: 60px 0px;"&gt;&lt;h2 id="iwtgg" style="text-align: center; text-shadow: 0px 0px 5px #000000;"&gt;Reviews&lt;/h2&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="iglz9" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="iiplhh" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ixm48t" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;&lt;img src="/Orangutan-face.jpg" alt="Orangutan-face" name="Orangutan-face.jpg" id="ichqwi" style="width: 100%; height: auto; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div id="in70v8" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;h2 id="iez4jg"&gt;Review de Asdrubal&lt;/h2&gt;
+      &lt;p id="ip0jut"&gt;&amp;nbsp;A Avengers Gym oferece uma atmosfera robusta e motivadora para os entusiastas do fitness. Com uma ampla variedade de equipamentos de alta qualidade e instrutores dedicados, este ginásio é o lugar perfeito para transformar metas em conquistas.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="iypmdi" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" id="i898fg" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" id="irr2sb" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;&lt;img src="/Chimpanzee-speaking.jpg" alt="Chimpanzee-speaking" name="Chimpanzee-speaking.jpg" id="inpk3g" style="width: 100%; height: auto; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" id="i0mk3r" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;h2 id="im5exs"&gt;Review de Antónia&lt;/h2&gt;
+      &lt;p id="io0syi"&gt;&amp;nbsp;O Avengers gym impressiona com seu design moderno e atmosfera acolhedora. Equipamentos de última geração se combinam com espaços bem organizados para musculação, cardio e aulas em grupo. Com uma equipe simpática e instalações de alta qualidade, o Avengers gym promete ser o destino ideal para alcançar seus objetivos fitness.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Reviews</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

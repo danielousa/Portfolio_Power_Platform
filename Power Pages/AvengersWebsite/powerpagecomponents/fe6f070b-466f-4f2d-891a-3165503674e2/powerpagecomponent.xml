@@ -1,0 +1,20 @@
+<powerpagecomponent powerpagecomponentid="fe6f070b-466f-4f2d-891a-3165503674e2">
+  <content>{
+  "powerpagesitelanguageid": "2d45039e-31ad-4637-af16-4022cf63d280",
+  "filecontent": null,
+  "display_name": "Logo alt text",
+  "type": 756150000,
+  "value": "Avengers Gym"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Logo alt text</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>2d45039e-31ad-4637-af16-4022cf63d280</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,17 @@
+<powerpagecomponent powerpagecomponentid="e62ddc45-103d-4513-b57f-a891698393c5">
+  <content>{"copy":"&lt;div class='row sectionBlockLayout text-start' style='min-height: auto; padding: 8px;'&gt;\r\n  &lt;div class='container' style='display: flex; flex-wrap: wrap;'&gt;\r\n    &lt;div class='col-lg-12 columnBlockLayout' style='padding: 16px; margin: 60px 0px;'&gt;&lt;/div&gt;\r\n  &lt;/div&gt;\r\n&lt;/div&gt;\r\n","displayorder":1,"enablerating":false,"enabletracking":false,"excludefromsearch":false,"feedbackpolicy":756150000,"hiddenfromsitemap":false,"isroot":true,"pagetemplateid":"a02830d6-3835-43b0-882e-9678b251695e","parentpageid":"d56dd053-d714-4f1a-a180-b5cd3c8332da","partialurl":"Subpage-one","publishingstateid":"6e339278-347b-4c19-95ce-782b066f7454","sharedpageconfiguration":true,"summary":"&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;\r\n","title":"Subpage one"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Subpage one</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>Subpage one&lt;div class='row sectionBlockLayout text-start' style='min-height: auto; padding: 8px;'&gt;
+  &lt;div class='container' style='display: flex; flex-wrap: wrap;'&gt;
+    &lt;div class='col-lg-12 columnBlockLayout' style='padding: 16px; margin: 60px 0px;'&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Subpage one</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

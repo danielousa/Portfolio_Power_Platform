@@ -1,0 +1,22 @@
+<powerpagecomponent powerpagecomponentid="1eaae9b1-eacf-518c-5f2e-66a725120b8c">
+  <content>{
+  "displayorder": 5,
+  "parentweblinkid": "1baa8581-6d85-4529-854a-ad6cea67608b",
+  "weblinksetid": "56e0dd20-2e35-466d-ab96-d630d62f13cd",
+  "pageid": "1a61c541-50d4-8048-91e2-1cde6431963f",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Localizações</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

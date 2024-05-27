@@ -1,0 +1,22 @@
+<powerpagecomponent powerpagecomponentid="d6f65af2-83e4-8e30-d066-c734bd95a512">
+  <content>{
+  "displayorder": 4,
+  "parentweblinkid": "1baa8581-6d85-4529-854a-ad6cea67608b",
+  "weblinksetid": "56e0dd20-2e35-466d-ab96-d630d62f13cd",
+  "pageid": "6c96fe32-4b2a-8908-7ce5-02d21fbdd033",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Oferta</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

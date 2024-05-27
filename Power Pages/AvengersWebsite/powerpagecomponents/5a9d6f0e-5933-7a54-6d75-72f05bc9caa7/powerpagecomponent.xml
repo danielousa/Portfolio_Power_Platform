@@ -1,0 +1,79 @@
+<powerpagecomponent powerpagecomponentid="5a9d6f0e-5933-7a54-6d75-72f05bc9caa7">
+  <content>{
+  "filecontent": null,
+  "displayorder": 3,
+  "customcss": "",
+  "customjavascript": "",
+  "pagetemplateid": "a02830d6-3835-43b0-882e-9678b251695e",
+  "parentpageid": "d56dd053-d714-4f1a-a180-b5cd3c8332da",
+  "partialurl": "Loja",
+  "isroot": false,
+  "rootwebpageid": "20afefa2-fce8-af26-a0dd-76b8910c471c",
+  "title": "Loja",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "&lt;div id=\"i7jpm\" class=\"row sectionBlockLayout sectionPrimaryColor text-start\" style=\"display: flex; flex-wrap: wrap; height: 15px; padding: 8px; margin: 0px;\"&gt;&lt;div id=\"i14iy\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;&lt;/div&gt;&lt;/div&gt;\n&lt;div id=\"i1l1l\" class=\"row sectionBlockLayout text-start\" style='display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 361px; background-image: url(\"/Interior-decorating-tools-laid-on-architectural-plan.jpg\"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;\n  &lt;div id=\"iionl\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ip05i\" class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;\"&gt;\n      &lt;h1 id=\"ihh5q\" style=\"text-shadow: 0px 0px 5px #FFCA4B;\"&gt;Loja&lt;/h1&gt;\n      &lt;p id=\"iyn6hk\"&gt;Em construção&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"igjk0q\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"inqp6l\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;\"&gt;\n  &lt;div id=\"i6wnpq\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"i6bsd3\" class=\"col-lg-4 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;img src=\"/Bottle-of-water.jpg\" id=\"ii6e4a\" alt=\"Bottle-of-water\" name=\"Bottle-of-water.jpg\" style=\"width: 47%; height: 100%; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"isrqng\" class=\"col-lg-8 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;p id=\"iczl1k\"&gt;Garrafa de água 0.50€&lt;/p&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"ib9b7o\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"i50062\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;\"&gt;\n  &lt;div id=\"ixpg0u\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ibubc4\" class=\"col-lg-4 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;img src=\"/Rolled-oats-in-wooden-bowl-and-table.jpg\" alt=\"Rolled-oats-in-wooden-bowl-and-table\" name=\"Rolled-oats-in-wooden-bowl-and-table.jpg\" id=\"iezfts\" style=\"width: 47%; height: 100%; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"ipyl2g\" class=\"col-lg-8 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;p id=\"id34u3\"&gt;Barra de proteína 1.00€&lt;/p&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"i5f73n\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"io2qoy\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;\"&gt;\n  &lt;div id=\"isyjgh\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ifsi71\" class=\"col-lg-4 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;img src=\"/Person-hiking.jpg\" alt=\"Person-hiking\" name=\"Person-hiking.jpg\" id=\"ibjx05\" style=\"width: 47%; height: 100%; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"iipqwq\" class=\"col-lg-8 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;p id=\"i2owpp\"&gt;Mochila Avengers Gym 50.00€&lt;/p&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"i0gr2w\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"i335yp\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;\"&gt;\n  &lt;div id=\"iu5izm\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ii1ai6\" class=\"col-lg-4 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;img src=\"/Fighter-wrapping-hands-with-tape.jpg\" alt=\"Fighter-wrapping-hands-with-tape\" name=\"Fighter-wrapping-hands-with-tape.jpg\" id=\"is6ahz\" style=\"width: 47%; height: 100%; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"iymevg\" class=\"col-lg-8 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;p id=\"iho1cl\"&gt;Luvas levantamento de pesos 20.00€&lt;/p&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"itw4ta\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"ixivnx\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"izjsij\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;&lt;div id=\"iw4ttj\" class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;{% include 'entity_list' key: 'Active TesteProdutos' isModern: 'false'%}&lt;/div&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"izhf0l\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"ip35kj\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"iui6sj\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;&lt;div id=\"il6jgb\" class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;{% entityform name: 'Information' %}&lt;/div&gt;&lt;/div&gt;\n&lt;/div&gt;\n",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Loja</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>2d45039e-31ad-4637-af16-4022cf63d280</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Loja&lt;div id="i7jpm" class="row sectionBlockLayout sectionPrimaryColor text-start" style="display: flex; flex-wrap: wrap; height: 15px; padding: 8px; margin: 0px;"&gt;&lt;div id="i14iy" class="container" style="display: flex; flex-wrap: wrap;"&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div id="i1l1l" class="row sectionBlockLayout text-start" style='display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 361px; background-image: url("/Interior-decorating-tools-laid-on-architectural-plan.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;
+  &lt;div id="iionl" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ip05i" class="col-lg-12 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;"&gt;
+      &lt;h1 id="ihh5q" style="text-shadow: 0px 0px 5px #FFCA4B;"&gt;Loja&lt;/h1&gt;
+      &lt;p id="iyn6hk"&gt;Em construção&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="igjk0q" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="inqp6l" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;"&gt;
+  &lt;div id="i6wnpq" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="i6bsd3" class="col-lg-4 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;img src="/Bottle-of-water.jpg" id="ii6e4a" alt="Bottle-of-water" name="Bottle-of-water.jpg" style="width: 47%; height: 100%; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div id="isrqng" class="col-lg-8 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;p id="iczl1k"&gt;Garrafa de água 0.50€&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="ib9b7o" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="i50062" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;"&gt;
+  &lt;div id="ixpg0u" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ibubc4" class="col-lg-4 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;img src="/Rolled-oats-in-wooden-bowl-and-table.jpg" alt="Rolled-oats-in-wooden-bowl-and-table" name="Rolled-oats-in-wooden-bowl-and-table.jpg" id="iezfts" style="width: 47%; height: 100%; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div id="ipyl2g" class="col-lg-8 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;p id="id34u3"&gt;Barra de proteína 1.00€&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="i5f73n" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="io2qoy" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;"&gt;
+  &lt;div id="isyjgh" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ifsi71" class="col-lg-4 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;img src="/Person-hiking.jpg" alt="Person-hiking" name="Person-hiking.jpg" id="ibjx05" style="width: 47%; height: 100%; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div id="iipqwq" class="col-lg-8 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;p id="i2owpp"&gt;Mochila Avengers Gym 50.00€&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="i0gr2w" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="i335yp" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: auto;"&gt;
+  &lt;div id="iu5izm" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ii1ai6" class="col-lg-4 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;img src="/Fighter-wrapping-hands-with-tape.jpg" alt="Fighter-wrapping-hands-with-tape" name="Fighter-wrapping-hands-with-tape.jpg" id="is6ahz" style="width: 47%; height: 100%; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div id="iymevg" class="col-lg-8 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;p id="iho1cl"&gt;Luvas levantamento de pesos 20.00€&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="itw4ta" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="ixivnx" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="izjsij" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;&lt;div id="iw4ttj" class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;{% include 'entity_list' key: 'Active TesteProdutos' isModern: 'false'%}&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="izhf0l" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="ip35kj" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="iui6sj" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;&lt;div id="il6jgb" class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;{% entityform name: 'Information' %}&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+Loja</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

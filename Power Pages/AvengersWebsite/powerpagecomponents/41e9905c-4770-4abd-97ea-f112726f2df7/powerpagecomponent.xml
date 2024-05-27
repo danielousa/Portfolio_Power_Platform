@@ -1,0 +1,31 @@
+<powerpagecomponent powerpagecomponentid="41e9905c-4770-4abd-97ea-f112726f2df7">
+  <content>{
+  "entityname": "permicoes",
+  "entitylogicalname": "crd48_testeprodutos",
+  "scope": 756150000,
+  "append": true,
+  "appendto": false,
+  "delete": false,
+  "read": true,
+  "create": true,
+  "write": true,
+  "parentrelationship": null,
+  "parententitypermission": null,
+  "contactrelationship": null,
+  "accountrelationship": null,
+  "childTablePermissions": [],
+  "adx_entitypermission_webrole": [
+    "79364417-4663-4364-8469-1441d4939bfb",
+    "c0109d98-28e0-4107-830a-62130c6d8ac2",
+    "efb77744-01fa-4a9c-a829-c629c361fa67"
+  ]
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>permicoes</name>
+  <powerpagecomponenttype>18</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

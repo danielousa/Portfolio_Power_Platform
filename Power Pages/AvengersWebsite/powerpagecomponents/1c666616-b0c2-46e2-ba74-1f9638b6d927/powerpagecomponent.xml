@@ -1,0 +1,107 @@
+<powerpagecomponent powerpagecomponentid="1c666616-b0c2-46e2-ba74-1f9638b6d927">
+  <content>{
+  "filecontent": null,
+  "copy": "&lt;div data-component-theme=\"portalThemeColor3\" id=\"im0rv\" class=\"row sectionBlockLayout text-start\" style='display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px; background-image: url(\"/Running-on-treadmill.jpg\"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;\n  &lt;div id=\"il20g\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"i8r4n\" class=\"col-lg-12 columnBlockLayout home-section-1\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 60px 0px;\"&gt;\n      &lt;h2 id=\"is3rm\" style=\"text-align: center; color: var(--portalThemeColor7); box-shadow: 0px 0px 0px #ffffff; text-shadow: 0px 0px 5px #000000;\"&gt;\n        ​&lt;b&gt;​Bem vindo ao Avengers Gym &lt;/b&gt;\n        &lt;div id=\"igb9c\" style=\"position: relative;\"&gt;&lt;br id=\"i8i2j\" /&gt;&lt;/div&gt;\n      &lt;/h2&gt;\n      &lt;button onclick=\"window.location.href='/Local/'\" type=\"button\" value=\"Local\" id=\"ir3ijx\" class=\"button1\" style=\"margin-left: auto; margin-right: auto;\"&gt;Junte-se a nós&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"ii1gt8\" data-component-theme=\"portalThemeColor2\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"irr7ke\" data-component-theme=\"portalThemeColor2\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"iv4aa1\" data-component-theme=\"portalThemeColor1\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"ik5utr\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ibqaze\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;p id=\"iko933\"&gt;Conheça os nosso planos de treino&lt;/p&gt;&lt;/div&gt;\n    &lt;div id=\"in1oja\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;button onclick=\"window.location.href='/Local/Oferta/'\" type=\"button\" value=\"Oferta\" id=\"i0su5o\" class=\"button1\" style=\"margin-left: auto; margin-right: auto;\"&gt;Planos de treino&lt;/button&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"i8o36r\" data-component-theme=\"portalThemeColor2\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor1\" id=\"iyns1i\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" id=\"ixe3fe\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" id=\"i4r74z\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;p id=\"i0sqxj\"&gt;Fale connosco&amp;nbsp;&lt;/p&gt;&lt;/div&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" id=\"i8bywa\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;\"&gt;&lt;button onclick=\"window.location.href='https://web.powerva.microsoft.com/environments/Default-92742eae-a119-43fb-a956-d7def744881a/bots/cr4ab_gymBotHorario/canvas?__version__=2/'\" type=\"button\" value=\"https://web.powerva.microsoft.com/environments/Default-92742eae-a119-43fb-a956-d7def744881a/bots/cr4ab_gymBotHorario/canvas?__version__=2\" id=\"i1xe8b\" class=\"button1\" style=\"margin-left: auto; margin-right: auto;\"&gt;ChatBot&lt;/button&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"ij1w4i\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"iixi4y\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ikzlhh\" class=\"col-lg-4 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;img src=\"/Body-builder-outline.png\" alt=\"Body-builder-outline\" name=\"Body-builder-outline.png\" id=\"igcbcw\" style=\"width: 47%; height: 167px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h3 id=\"ixpo1f\" style=\"text-align: center;\"&gt;Musulação&lt;/h3&gt;\n      &lt;p id=\"ixfica\" style=\"text-align: center;\"&gt;Levanta ferro até não poderes mais&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div id=\"idmrhk\" class=\"col-lg-4 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;img src=\"/Tricycle-with-solid-fill.png\" alt=\"Tricycle-with-solid-fill\" name=\"Tricycle-with-solid-fill.png\" id=\"isnhw5\" style=\"width: 47%; height: 167px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h3 id=\"ie30uu\" style=\"text-align: center;\"&gt;Cycling&lt;/h3&gt;\n      &lt;p id=\"i9lbia\" style=\"text-align: center;\"&gt;Pedala sem sair do sitio, o sonho de qualquer ciclista está ao seu alcance&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div id=\"ite0lb\" class=\"col-lg-4 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;img src=\"/Confused-person-outline.png\" alt=\"Confused-person-outline\" name=\"Confused-person-outline.png\" id=\"izemiq\" style=\"width: 47%; height: 167px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h3 id=\"ik3r9e\" style=\"text-align: center;\"&gt;Ioga&lt;/h3&gt;\n      &lt;p id=\"innbpu\" style=\"text-align: center;\"&gt;Alongamentos, agachamento e cambalhotas ao som da natureza&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor2\" id=\"iup9xn\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 24px;\"&gt;&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor1\" id=\"ilub3k\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: 451.25px; padding: 8px;\"&gt;\n  &lt;div id=\"iityny\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap; column-gap: 0px;\"&gt;\n    &lt;div id=\"i095pg\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 60px 0px; padding: 16px; width: calc(50% + 0px);\"&gt;&lt;img src=\"/Workout-equipment-lined-up-in-gym-lit-by-sun-through-window.jpg\" alt=\"Workout-equipment-lined-up-in-gym-lit-by-sun-through-window\" name=\"Workout-equipment-lined-up-in-gym-lit-by-sun-through-window.jpg\" id=\"ic9eww\" style=\"width: 100%; height: auto; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"ivqtwn\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 60px 0px; padding: 16px; width: calc(50% + 0px);\"&gt;\n      &lt;h2 id=\"ise32x\"&gt;Instalações&lt;/h2&gt;\n      &lt;p id=\"i1fxb2\"&gt;Instalações de alta qualidade com todas as máquinas recomendadas pelos melhores profissionais, e uma equipa de limpeza e higienização bastante ativa.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor1\" id=\"iiyox4\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"iyjunl\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"i9qlo2\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;h2 id=\"igi94f\"&gt;Equipa&lt;/h2&gt;\n      &lt;p id=\"i2jm8q\"&gt;Uma excelente equipa de profissionais altamente qualificados e com ampla experiência que o irá acompanhar no seu dia a dia nos nossos ginásios&amp;nbsp;&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div id=\"i9mbnv\" class=\"col-lg-6 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;&lt;img src=\"/Group-of-young-people-huddling-in-gym.jpg\" alt=\"Group-of-young-people-huddling-in-gym\" name=\"Group-of-young-people-huddling-in-gym.jpg\" id=\"i189bh\" style=\"width: 100%; height: auto; max-width: 100%;\" /&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor2\" id=\"iaqbl4\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 26px;\"&gt;&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor3\" id=\"ifu0w1\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div id=\"i83wpi\" class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"iwzscn\" class=\"col-lg-12 columnBlockLayout\" style=\"word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 174.63px 0px; padding: 16px;\"&gt;\n      &lt;h2 id=\"iidtkw\" style=\"text-align: center; color: var(--portalThemeColor7);\"&gt;Localizações&lt;/h2&gt;\n      &lt;p id=\"i5qs1s\" style=\"text-align: center; color: var(--portalThemeColor7);\"&gt;Estamos localizados em Matosinhos, Espinho, Gondomar e Setúbal&lt;br id=\"iou792\" /&gt;Venha nos conhecer com uma aula de experimentação grátis&lt;/p&gt;\n      &lt;button onclick=\"window.location.href='/Local/'\" type=\"button\" value=\"Local\" id=\"i6g8yh\" class=\"button1\" style=\"margin-left: auto; margin-right: auto;\"&gt;Localizações&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "displayorder": 1,
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "feedbackpolicy": 756150005,
+  "hiddenfromsitemap": false,
+  "isroot": false,
+  "pagetemplateid": "a02830d6-3835-43b0-882e-9678b251695e",
+  "partialurl": "/",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "rootwebpageid": "8bc31e9d-6d7c-451f-a670-68041928e612",
+  "sharedpageconfiguration": false,
+  "summary": "&lt;p&gt;This is a sample landing page for you to start creating your website.&lt;/p&gt;\r\n",
+  "title": "Home",
+  "parentpageid": null
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Home</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>2d45039e-31ad-4637-af16-4022cf63d280</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Home&lt;div data-component-theme="portalThemeColor3" id="im0rv" class="row sectionBlockLayout text-start" style='display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px; background-image: url("/Running-on-treadmill.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;
+  &lt;div id="il20g" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="i8r4n" class="col-lg-12 columnBlockLayout home-section-1" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 60px 0px;"&gt;
+      &lt;h2 id="is3rm" style="text-align: center; color: var(--portalThemeColor7); box-shadow: 0px 0px 0px #ffffff; text-shadow: 0px 0px 5px #000000;"&gt;
+        ​&lt;b&gt;​Bem vindo ao Avengers Gym &lt;/b&gt;
+        &lt;div id="igb9c" style="position: relative;"&gt;&lt;br id="i8i2j" /&gt;&lt;/div&gt;
+      &lt;/h2&gt;
+      &lt;button onclick="window.location.href='/Local/'" type="button" value="Local" id="ir3ijx" class="button1" style="margin-left: auto; margin-right: auto;"&gt;Junte-se a nós&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="ii1gt8" data-component-theme="portalThemeColor2" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="irr7ke" data-component-theme="portalThemeColor2" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="iv4aa1" data-component-theme="portalThemeColor1" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="ik5utr" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ibqaze" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;p id="iko933"&gt;Conheça os nosso planos de treino&lt;/p&gt;&lt;/div&gt;
+    &lt;div id="in1oja" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;button onclick="window.location.href='/Local/Oferta/'" type="button" value="Oferta" id="i0su5o" class="button1" style="margin-left: auto; margin-right: auto;"&gt;Planos de treino&lt;/button&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="i8o36r" data-component-theme="portalThemeColor2" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor1" id="iyns1i" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" id="ixe3fe" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" id="i4r74z" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;p id="i0sqxj"&gt;Fale connosco&amp;nbsp;&lt;/p&gt;&lt;/div&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" id="i8bywa" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; word-break: break-word;"&gt;&lt;button onclick="window.location.href='https://web.powerva.microsoft.com/environments/Default-92742eae-a119-43fb-a956-d7def744881a/bots/cr4ab_gymBotHorario/canvas?__version__=2/'" type="button" value="https://web.powerva.microsoft.com/environments/Default-92742eae-a119-43fb-a956-d7def744881a/bots/cr4ab_gymBotHorario/canvas?__version__=2" id="i1xe8b" class="button1" style="margin-left: auto; margin-right: auto;"&gt;ChatBot&lt;/button&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="ij1w4i" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="iixi4y" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ikzlhh" class="col-lg-4 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;img src="/Body-builder-outline.png" alt="Body-builder-outline" name="Body-builder-outline.png" id="igcbcw" style="width: 47%; height: 167px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h3 id="ixpo1f" style="text-align: center;"&gt;Musulação&lt;/h3&gt;
+      &lt;p id="ixfica" style="text-align: center;"&gt;Levanta ferro até não poderes mais&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div id="idmrhk" class="col-lg-4 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;img src="/Tricycle-with-solid-fill.png" alt="Tricycle-with-solid-fill" name="Tricycle-with-solid-fill.png" id="isnhw5" style="width: 47%; height: 167px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h3 id="ie30uu" style="text-align: center;"&gt;Cycling&lt;/h3&gt;
+      &lt;p id="i9lbia" style="text-align: center;"&gt;Pedala sem sair do sitio, o sonho de qualquer ciclista está ao seu alcance&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div id="ite0lb" class="col-lg-4 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;img src="/Confused-person-outline.png" alt="Confused-person-outline" name="Confused-person-outline.png" id="izemiq" style="width: 47%; height: 167px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h3 id="ik3r9e" style="text-align: center;"&gt;Ioga&lt;/h3&gt;
+      &lt;p id="innbpu" style="text-align: center;"&gt;Alongamentos, agachamento e cambalhotas ao som da natureza&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor2" id="iup9xn" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 24px;"&gt;&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor1" id="ilub3k" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: 451.25px; padding: 8px;"&gt;
+  &lt;div id="iityny" class="container" style="padding: 0px; display: flex; flex-wrap: wrap; column-gap: 0px;"&gt;
+    &lt;div id="i095pg" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 60px 0px; padding: 16px; width: calc(50% + 0px);"&gt;&lt;img src="/Workout-equipment-lined-up-in-gym-lit-by-sun-through-window.jpg" alt="Workout-equipment-lined-up-in-gym-lit-by-sun-through-window" name="Workout-equipment-lined-up-in-gym-lit-by-sun-through-window.jpg" id="ic9eww" style="width: 100%; height: auto; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div id="ivqtwn" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 60px 0px; padding: 16px; width: calc(50% + 0px);"&gt;
+      &lt;h2 id="ise32x"&gt;Instalações&lt;/h2&gt;
+      &lt;p id="i1fxb2"&gt;Instalações de alta qualidade com todas as máquinas recomendadas pelos melhores profissionais, e uma equipa de limpeza e higienização bastante ativa.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor1" id="iiyox4" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="iyjunl" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="i9qlo2" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;h2 id="igi94f"&gt;Equipa&lt;/h2&gt;
+      &lt;p id="i2jm8q"&gt;Uma excelente equipa de profissionais altamente qualificados e com ampla experiência que o irá acompanhar no seu dia a dia nos nossos ginásios&amp;nbsp;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div id="i9mbnv" class="col-lg-6 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;&lt;img src="/Group-of-young-people-huddling-in-gym.jpg" alt="Group-of-young-people-huddling-in-gym" name="Group-of-young-people-huddling-in-gym.jpg" id="i189bh" style="width: 100%; height: auto; max-width: 100%;" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor2" id="iaqbl4" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 26px;"&gt;&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor3" id="ifu0w1" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div id="i83wpi" class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="iwzscn" class="col-lg-12 columnBlockLayout" style="word-break: break-word; flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 174.63px 0px; padding: 16px;"&gt;
+      &lt;h2 id="iidtkw" style="text-align: center; color: var(--portalThemeColor7);"&gt;Localizações&lt;/h2&gt;
+      &lt;p id="i5qs1s" style="text-align: center; color: var(--portalThemeColor7);"&gt;Estamos localizados em Matosinhos, Espinho, Gondomar e Setúbal&lt;br id="iou792" /&gt;Venha nos conhecer com uma aula de experimentação grátis&lt;/p&gt;
+      &lt;button onclick="window.location.href='/Local/'" type="button" value="Local" id="i6g8yh" class="button1" style="margin-left: auto; margin-right: auto;"&gt;Localizações&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Home</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,23 @@
+<powerpagecomponent powerpagecomponentid="f4343a87-706f-4e38-8f63-c7c43c98bcdc">
+  <content>{
+  "filecontent": null,
+  "disablepagevalidation": false,
+  "displayimageonly": false,
+  "displayorder": 6,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "pageid": "2825801f-29a9-403b-939e-cda50a4ae539",
+  "parentweblinkid": "1baa8581-6d85-4529-854a-ad6cea67608b",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "robotsfollowlink": true,
+  "weblinksetid": "56e0dd20-2e35-466d-ab96-d630d62f13cd"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Reviews</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

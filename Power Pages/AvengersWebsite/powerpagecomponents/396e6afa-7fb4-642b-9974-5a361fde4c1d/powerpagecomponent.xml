@@ -1,0 +1,72 @@
+<powerpagecomponent powerpagecomponentid="396e6afa-7fb4-642b-9974-5a361fde4c1d">
+  <content>{
+  "displayorder": 6,
+  "customcss": "",
+  "customjavascript": "",
+  "pagetemplateid": "a02830d6-3835-43b0-882e-9678b251695e",
+  "parentpageid": "d56dd053-d714-4f1a-a180-b5cd3c8332da",
+  "partialurl": "Oferta",
+  "isroot": false,
+  "rootwebpageid": "6c96fe32-4b2a-8908-7ce5-02d21fbdd033",
+  "title": "Oferta",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "&lt;div id=\"i8hrru\" class=\"row sectionBlockLayout sectionPrimaryColor text-start\" style=\"display: flex; flex-wrap: wrap; height: 15px; padding: 8px; margin: 0px;\"&gt;&lt;div id=\"i3ltsd\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;&lt;/div&gt;&lt;/div&gt;\n&lt;div id=\"i3qejj\" data-component-theme=\"\" class=\"row sectionBlockLayout text-start\" style='display: flex; flex-wrap: wrap; min-height: 361px; padding: 8px; margin: 0px; background-image: url(\"/Barbell-on-rubber-mat-on-floor-next-to-window.jpg\"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;\n  &lt;div id=\"i3spcu\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"iaj34q\" class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;\"&gt;\n      &lt;h2 id=\"ix2l34\" style=\"color: var(--portalThemeColor7); text-shadow: 0px 0px 5px #000000;\"&gt;Oferta&lt;/h2&gt;\n      &lt;p id=\"imd99n\" style=\"color: var(--portalThemeColor7);\"&gt;Escolha o plano que melhor se adapta as sua necessidades&amp;nbsp;&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"i7k6au\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"i37uyj\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; min-height: 100px; padding: 8px; margin: 0px;\"&gt;\n  &lt;div id=\"ita6c9\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"iyncye\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;\"&gt;&lt;img src=\"/Piggy-bank-illustration.jpg\" id=\"ifow5i\" alt=\"Piggy-bank-illustration\" name=\"Piggy-bank-illustration.jpg\" style=\"max-width: 100%; width: 100%; height: auto; background-color: #fafafa;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"iwtddk\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column; justify-content: center;\"&gt;\n      &lt;h3 id=\"ipaepn\"&gt;Low cost 10€/mês&lt;/h3&gt;\n      &lt;p id=\"il278u\"&gt;Mantenha o corpo e a carteira em forma.&lt;br /&gt;Limitado a 2 sessões por semana.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"iwrx0r\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"iqyo7c\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; min-height: 100px; padding: 8px; margin: 0px;\"&gt;\n  &lt;div id=\"ilney1\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ip049t\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;\"&gt;&lt;img src=\"/Empty-gym-with-a-barbell-on-the-floor.jpg\" alt=\"Empty-gym-with-a-barbell-on-the-floor\" name=\"Empty-gym-with-a-barbell-on-the-floor.jpg\" id=\"it0svl\" style=\"max-width: 100%; width: 100%; height: auto; background-color: #fafafa;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"ivjece\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column; justify-content: center;\"&gt;\n      &lt;h3 id=\"iza08q\"&gt;Horário livre 30€/mês&lt;/h3&gt;\n      &lt;p id=\"i9yw6o\"&gt;Acesso ilimitado as zonas de treino.&lt;br /&gt;Inscrição em aulas especializadas com 24h antecedência.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=\"ic8zrr\" data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div id=\"ics9mi\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; min-height: 100px; padding: 8px; margin: 0px;\"&gt;\n  &lt;div id=\"ihp8kb\" class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div id=\"ixa4ju\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;\"&gt;&lt;img src=\"/Woman-in-workout-outfit-lifting-dumbbell.jpg\" alt=\"Woman-in-workout-outfit-lifting-dumbbell\" name=\"Woman-in-workout-outfit-lifting-dumbbell.jpg\" id=\"icoymq\" style=\"max-width: 100%; width: 100%; height: auto; background-color: #fafafa;\" /&gt;&lt;/div&gt;\n    &lt;div id=\"i3onec\" class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column; justify-content: center;\"&gt;\n      &lt;h3 id=\"ib3j6y\"&gt;Premium cost 60€/mês&lt;/h3&gt;\n      &lt;p id=\"iopnli\"&gt;&amp;nbsp;Acesso ilimitado ao zonas de treino.&lt;br /&gt;Inscrição em aulas especializadas com 24h antecedência.&lt;br /&gt;Inclui tolha e serviço lavandaria,&amp;nbsp; até 2 garrafas de água por sessão.&lt;br /&gt;1 massagem grátis por semana.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "publishingstateid": "6e339278-347b-4c19-95ce-782b066f7454",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Oferta</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>85c0ce8d-df89-4ea2-877e-017c0b9df2b7</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>2d45039e-31ad-4637-af16-4022cf63d280</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Oferta&lt;div id="i8hrru" class="row sectionBlockLayout sectionPrimaryColor text-start" style="display: flex; flex-wrap: wrap; height: 15px; padding: 8px; margin: 0px;"&gt;&lt;div id="i3ltsd" class="container" style="display: flex; flex-wrap: wrap;"&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div id="i3qejj" data-component-theme="" class="row sectionBlockLayout text-start" style='display: flex; flex-wrap: wrap; min-height: 361px; padding: 8px; margin: 0px; background-image: url("/Barbell-on-rubber-mat-on-floor-next-to-window.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;
+  &lt;div id="i3spcu" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="iaj34q" class="col-lg-12 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;"&gt;
+      &lt;h2 id="ix2l34" style="color: var(--portalThemeColor7); text-shadow: 0px 0px 5px #000000;"&gt;Oferta&lt;/h2&gt;
+      &lt;p id="imd99n" style="color: var(--portalThemeColor7);"&gt;Escolha o plano que melhor se adapta as sua necessidades&amp;nbsp;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="i7k6au" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="i37uyj" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; min-height: 100px; padding: 8px; margin: 0px;"&gt;
+  &lt;div id="ita6c9" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="iyncye" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;"&gt;&lt;img src="/Piggy-bank-illustration.jpg" id="ifow5i" alt="Piggy-bank-illustration" name="Piggy-bank-illustration.jpg" style="max-width: 100%; width: 100%; height: auto; background-color: #fafafa;" /&gt;&lt;/div&gt;
+    &lt;div id="iwtddk" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column; justify-content: center;"&gt;
+      &lt;h3 id="ipaepn"&gt;Low cost 10€/mês&lt;/h3&gt;
+      &lt;p id="il278u"&gt;Mantenha o corpo e a carteira em forma.&lt;br /&gt;Limitado a 2 sessões por semana.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="iwrx0r" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="iqyo7c" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; min-height: 100px; padding: 8px; margin: 0px;"&gt;
+  &lt;div id="ilney1" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ip049t" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;"&gt;&lt;img src="/Empty-gym-with-a-barbell-on-the-floor.jpg" alt="Empty-gym-with-a-barbell-on-the-floor" name="Empty-gym-with-a-barbell-on-the-floor.jpg" id="it0svl" style="max-width: 100%; width: 100%; height: auto; background-color: #fafafa;" /&gt;&lt;/div&gt;
+    &lt;div id="ivjece" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column; justify-content: center;"&gt;
+      &lt;h3 id="iza08q"&gt;Horário livre 30€/mês&lt;/h3&gt;
+      &lt;p id="i9yw6o"&gt;Acesso ilimitado as zonas de treino.&lt;br /&gt;Inscrição em aulas especializadas com 24h antecedência.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="ic8zrr" data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div id="ics9mi" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; min-height: 100px; padding: 8px; margin: 0px;"&gt;
+  &lt;div id="ihp8kb" class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div id="ixa4ju" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column;"&gt;&lt;img src="/Woman-in-workout-outfit-lifting-dumbbell.jpg" alt="Woman-in-workout-outfit-lifting-dumbbell" name="Woman-in-workout-outfit-lifting-dumbbell.jpg" id="icoymq" style="max-width: 100%; width: 100%; height: auto; background-color: #fafafa;" /&gt;&lt;/div&gt;
+    &lt;div id="i3onec" class="col-lg-6 columnBlockLayout" style="flex-grow: 1; min-width: 250px; word-break: break-word; display: flex; flex-direction: column; justify-content: center;"&gt;
+      &lt;h3 id="ib3j6y"&gt;Premium cost 60€/mês&lt;/h3&gt;
+      &lt;p id="iopnli"&gt;&amp;nbsp;Acesso ilimitado ao zonas de treino.&lt;br /&gt;Inscrição em aulas especializadas com 24h antecedência.&lt;br /&gt;Inclui tolha e serviço lavandaria,&amp;nbsp; até 2 garrafas de água por sessão.&lt;br /&gt;1 massagem grátis por semana.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Oferta</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>
